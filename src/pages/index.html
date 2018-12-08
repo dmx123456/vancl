@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+    <div class="head">
+        <div class="headerTopArea">
+            <div class="headerTop">
+                <div class="headerTopRight">
+                    <div class="headerTopRightNotice">
+                        <a href="#">网站公告</a>
+                    </div>
+                    <div class="preferential">
+                        <a href="#" class="weixinbox">
+                            <span class="weixin"></span>
+                            <span class="scan"></span>
+                        </a>
+                        <a href="#" class="weibo"></a>
+                    </div>
+                </div>
+                <div class="headerTopLeft">
+                    <div class="orderArea">
+                        <a href="#" class="order">我的订单</a>
+                    </div>
+                    <div class="loginArea"> 您好,
+                        <span class="welcome">欢迎光临凡客诚品！&nbsp;</span>
+                        <span class="logins">
+                            <a href="#" class="login">登录</a>&nbsp;|&nbsp;
+                            <a href="#" class="login">注册</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="headerContent">
+            <div class="search">
+                <input type="text" class="searchText" placeholder="搜“熊本熊”，体验与众不同">
+                <input type="button" class="searchBtn" value="">
+            </div>
+        </div> 
+    </div>
+    <script src="../js/jquery.js"></script>
+    <script src="../js/jquery.nav.js"></script>
+    <script>
+        $(".preferential").nav({
+            parent:".weixinbox",
+            children:".scan"
+        })
+    </script>
+
+</body>
+</html>
