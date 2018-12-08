@@ -22,89 +22,90 @@ input {
 body, html {
   width: 100%;
   height: 100%; }
-  body .head, html .head {
-    width: 100%; }
-    body .head .headerTopArea, html .head .headerTopArea {
-      width: 100%;
-      background: #f7f7f7;
-      border-bottom: 1px solid #ccc; }
-      body .head .headerTopArea .headerTop, html .head .headerTopArea .headerTop {
-        width: 1200px;
-        height: 31px;
-        margin: 0 auto; }
-        body .head .headerTopArea .headerTop .headerTopRight, html .head .headerTopArea .headerTop .headerTopRight {
-          width: 135px;
-          height: 31px;
-          line-height: 31px;
-          float: right; }
-          body .head .headerTopArea .headerTop .headerTopRight .headerTopRightNotice, html .head .headerTopArea .headerTop .headerTopRight .headerTopRightNotice {
-            width: 55px;
-            height: 31px;
-            float: left;
-            padding-left: 26px;
-            background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat 0 5px; }
-          body .head .headerTopArea .headerTop .headerTopRight .preferential, html .head .headerTopArea .headerTop .headerTopRight .preferential {
-            width: 45px;
-            float: right; }
-            body .head .headerTopArea .headerTop .headerTopRight .preferential .weixinbox, html .head .headerTopArea .headerTop .headerTopRight .preferential .weixinbox {
-              float: left;
-              position: relative;
-              height: 31px;
-              width: 20px; }
-            body .head .headerTopArea .headerTop .headerTopRight .preferential .weixin, body .head .headerTopArea .headerTop .headerTopRight .preferential .weibo, html .head .headerTopArea .headerTop .headerTopRight .preferential .weixin, html .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
-              height: 25px;
-              width: 20px;
-              display: inline-block;
-              cursor: pointer; }
-            body .head .headerTopArea .headerTop .headerTopRight .preferential .weixin, html .head .headerTopArea .headerTop .headerTopRight .preferential .weixin {
-              background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat 0 6px; }
-            body .head .headerTopArea .headerTop .headerTopRight .preferential .weibo, html .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
-              background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat 0 6px; }
-            body .head .headerTopArea .headerTop .headerTopRight .preferential .scan, html .head .headerTopArea .headerTop .headerTopRight .preferential .scan {
-              position: absolute;
-              left: -65px;
-              top: 31px;
-              height: 175px;
-              width: 150px;
-              display: inline-block;
-              cursor: pointer;
-              background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat 0 7px;
-              display: none; }
-        body .head .headerTopArea .headerTop .headerTopLeft .orderArea, html .head .headerTopArea .headerTop .headerTopLeft .orderArea {
-          float: right; }
-          body .head .headerTopArea .headerTop .headerTopLeft .orderArea .order, html .head .headerTopArea .headerTop .headerTopLeft .orderArea .order {
-            display: inline-block;
-            width: 62px;
-            height: 31px;
-            line-height: 31px;
-            margin-left: 13px; }
-        body .head .headerTopArea .headerTop .headerTopLeft .loginArea, html .head .headerTopArea .headerTop .headerTopLeft .loginArea {
-          height: 31px;
-          line-height: 31px;
-          float: right; }
-          body .head .headerTopArea .headerTop .headerTopLeft .loginArea .welcome, html .head .headerTopArea .headerTop .headerTopLeft .loginArea .welcome {
-            width: 150px; }
-          body .head .headerTopArea .headerTop .headerTopLeft .loginArea .login, html .head .headerTopArea .headerTop .headerTopLeft .loginArea .login {
-            display: inline-block;
-            width: 24px;
-            height: 31px;
-            line-height: 31px;
-            margin-left: -3px; }
-    body .head .headerContent, html .head .headerContent {
+
+.head {
+  width: 100%; }
+  .head .headerTopArea {
+    width: 100%;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ccc; }
+    .head .headerTopArea .headerTop {
       width: 1200px;
-      height: 62px;
-      margin: 0 auto;
-      font-size: 12px; }
-      body .head .headerContent .search, html .head .headerContent .search {
-        font-size: 0; }
-        body .head .headerContent .search .searchText, html .head .headerContent .search .searchText {
-          width: 259px;
-          height: 25px;
-          padding: 0 5px;
-          vertical-align: top; }
-        body .head .headerContent .search .searchBtn, html .head .headerContent .search .searchBtn {
-          width: 49px;
-          height: 29px;
-          border: none;
-          cursor: pointer;
-          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px; }
+      height: 31px;
+      margin: 0 auto; }
+      .head .headerTopArea .headerTop .headerTopRight {
+        width: 135px;
+        height: 31px;
+        line-height: 31px;
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopRight .headerTopRightNotice {
+          width: 55px;
+          height: 31px;
+          float: left;
+          padding-left: 26px;
+          background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat 0 5px; }
+        .head .headerTopArea .headerTop .headerTopRight .preferential {
+          width: 45px;
+          float: right; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixinbox {
+            float: left;
+            position: relative;
+            height: 31px;
+            width: 20px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixin, .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
+            height: 25px;
+            width: 20px;
+            display: inline-block;
+            cursor: pointer; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixin {
+            background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat 0 6px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
+            background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat 0 6px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .scan {
+            position: absolute;
+            left: -65px;
+            top: 31px;
+            height: 175px;
+            width: 150px;
+            display: inline-block;
+            cursor: pointer;
+            background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat 0 7px;
+            display: none; }
+      .head .headerTopArea .headerTop .headerTopLeft .orderArea {
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopLeft .orderArea .order {
+          display: inline-block;
+          width: 62px;
+          height: 31px;
+          line-height: 31px;
+          margin-left: 13px; }
+      .head .headerTopArea .headerTop .headerTopLeft .loginArea {
+        height: 31px;
+        line-height: 31px;
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopLeft .loginArea .welcome {
+          width: 150px; }
+        .head .headerTopArea .headerTop .headerTopLeft .loginArea .login {
+          display: inline-block;
+          width: 24px;
+          height: 31px;
+          line-height: 31px;
+          margin-left: -3px; }
+  .head .headerContent {
+    width: 1200px;
+    height: 62px;
+    margin: 0 auto;
+    font-size: 12px; }
+    .head .headerContent .search {
+      font-size: 0; }
+      .head .headerContent .search .searchText {
+        width: 259px;
+        height: 25px;
+        padding: 0 5px;
+        vertical-align: top; }
+      .head .headerContent .search .searchBtn {
+        width: 49px;
+        height: 29px;
+        border: none;
+        cursor: pointer;
+        background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px; }
