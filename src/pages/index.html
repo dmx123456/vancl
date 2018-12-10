@@ -299,13 +299,26 @@
             var html="";
             args.forEach(function(item) {
                 html+=`
-                <li> <a href="#" target="blank"> <img src="http://p3.vanclimg.com/232/232/product/6/3/7/${item.ProductCode}/mid/${item.Photos[0].FileName}"
+                <li> 
+                    <a href="#" target="blank"> 
+                        <img src="http://p3.vanclimg.com/232/232/product/6/3/7/${item.ProductCode}/mid/${item.Photos[0].FileName}"
                             alt="${item.ProductName}">
-                        <div class="new-miaosha-productname"> <span>${item.ProductName}</span> </div>
-                        <div class="new-miaosha-price"> <span class="new-miaosha-oldprice">&yen; <em>${item.Price}</em> </span>
-                            <span class="new-miaosha-saleprice">&yen; <em>${item.SPrice}</em> </span> <span class="new-miaosha-afterdeposit">充值后
-                                <em>999</em>元</span> </div>
-                    </a> </li>
+                        <div class="new-miaosha-productname"> 
+                            <span>${item.ProductName}</span> 
+                        </div>
+                        <div class="new-miaosha-price"> 
+                            <span class="new-miaosha-oldprice">&yen; 
+                                <em>${item.Price}</em> 
+                            </span>
+                            <span class="new-miaosha-saleprice">&yen; 
+                                <em>${item.SPrice}</em> 
+                            </span> 
+                            <span class="new-miaosha-afterdeposit">充值后
+                                <em>${item.SPrice}</em>元
+                            </span> 
+                        </div>
+                    </a> 
+                </li>
                 `;
             })
             $("#seckill_container ul").html(html);
