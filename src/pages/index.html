@@ -291,39 +291,49 @@
             parent: ".weixinbox",
             children: ".scan"
         });
-        _jsonp("http://recom-s.vancl.com/product/GetProductInfosBySeckill?productcodes=6378000,6379493,6379494,6377947,6378338") .then(function(res) {
-            console.log(res);
+        _jsonp("http://recom-s.vancl.com/CmsSeckill/GetMainIndexSeckillForWww?showNum=5").then(function(res) {
+            console.log(res.data.productCodes.split(","));
             seckill(res);
-        })
-        function seckill(args){
-            var html="";
-            args.forEach(function(item) {
-                html+=`
-                <li> 
-                    <a href="#" target="blank"> 
-                        <img src="http://p3.vanclimg.com/232/232/product/6/3/7/${item.ProductCode}/mid/${item.Photos[0].FileName}"
-                            alt="${item.ProductName}">
-                        <div class="new-miaosha-productname"> 
-                            <span>${item.ProductName}</span> 
-                        </div>
-                        <div class="new-miaosha-price"> 
-                            <span class="new-miaosha-oldprice">&yen; 
-                                <em>${item.Price}</em> 
-                            </span>
-                            <span class="new-miaosha-saleprice">&yen; 
-                                <em>${item.SPrice}</em> 
-                            </span> 
-                            <span class="new-miaosha-afterdeposit">充值后
-                                <em>${item.SPrice}</em>元
-                            </span> 
-                        </div>
-                    </a> 
-                </li>
-                `;
-            })
-            $("#seckill_container ul").html(html);
-            return html;
+        });
+        function seckill(json){
+            var con = json.data.productCodes;
+            var url = "http://recom-s.vancl.com/product/GetProductInfosBySeckill?productcodes=";
+            _jsonp(url+con) .then(function(res) {
+            seckill_con(res);
+        });
+            function seckill_con(args){
+                var html="";
+                args.forEach(function(item) {
+                    html+=`
+                    <li> 
+                        <a href="#" target="blank"> 
+                            <img src="http://p3.vanclimg.com/232/232/product/6/3/7/${item.ProductCode}/mid/${item.Photos[0].FileName}"
+                                alt="${item.ProductName}">
+                            <div class="new-miaosha-productname"> 
+                                <span>${item.ProductName}</span> 
+                            </div>
+                            <div class="new-miaosha-price"> 
+                                <span class="new-miaosha-oldprice">&yen; 
+                                    <em>${item.Price}</em> 
+                                </span>
+                                <span class="new-miaosha-saleprice">&yen; 
+                                    <em>${item.SPrice}</em> 
+                                </span> 
+                                <span class="new-miaosha-afterdeposit">充值后
+                                    <em>${item.SPrice}</em>元
+                                </span> 
+                            </div>
+                        </a> 
+                    </li>
+                    `;
+                })
+                $("#seckill_container ul").html(html);
+                return html;
+            }
         }
+        
+
+
     </script>
     <script type="module">
         import banner from "../js/banner.js"
