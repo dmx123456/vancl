@@ -1,3 +1,176 @@
 @import "./header.scss";
 
+.banner {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+
+    ul {
+        width: 100%;
+
+        li {
+            width: 100%;
+            position: absolute;
+        }
+    }
+
+    .foucsTab {
+        padding-top: 550px;
+
+        button {
+            width: 40px;
+        }
+
+        #left,
+        #right {
+            cursor: pointer;
+            height: 60px;
+            width: 28px;
+            display: inline-block;
+            z-index: 10;
+        }
+
+        #left {
+            background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
+            left: 10px;
+            position: absolute;
+            top: 230px;
+        }
+
+        #right {
+            background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
+            position: absolute;
+            right: 10px;
+            top: 230px;
+        }
+    }
+
+    .pageList {
+        position: absolute;
+        bottom: 20px;
+        z-index: 9;
+        width: 100%;
+        text-align: center;
+
+        span {
+            display: inline-block;
+            width: 15px;
+            height: 15px;
+            background: #eeeeee;
+            border-radius: 50%;
+            margin: 0 3px;
+
+            &.active {
+                background: crimson;
+            }
+        }
+    }
+}
+
+.getMoney {
+    width: 100%;
+    img{
+        display: block;
+        width: 1200px;
+        height: 60px;
+        margin: 20px auto;
+    }
+}
+
+.new_miaosha_area {
+    margin: 0 auto;
+    width: 1200px;
+    h2 {
+        height: 64px;
+        line-height: 64px;
+        text-align: center;
+        color: #9a9a9a;
+        font-size: 18px;
+        font-weight: normal;
+        #seckill_timecounting {
+            color: #a10000;
+            margin-left: 20px;
+            float: right;
+            padding-right: 30px;
+            em{
+                padding-left: 42px;
+                .wordBox{
+                    color: #fff;
+                    padding-right: 25px;
+                }
+            }
+        }
+    }
+    .new_miaosha_title {
+        background: url(http://i1.vanclimg.com/cms/20181126/mm.jpg) no-repeat scroll 0px 0px;
+    }
+    
+}
+#seckill_container {
+    width: 1200px;
+    color: #474747;
+    font-weight: bold;
+    margin: 0 auto;
+    ul {
+        overflow: hidden;
+        margin: 10px 0 0 0;
+        padding: 0;
+        width: 1210px;
+        li {
+            float: left;
+            width: 232px;
+            margin-right: 10px;
+            list-style: none;
+            a:focus {
+                text-decoration: none;
+                color: #474747;
+            }
+            a{
+                color: #000;
+            }
+            img {
+                width: 232px;
+                height: 232px;
+                display: block;
+            }
+            .new-miaosha-productname {
+                font-size: 16px;
+                margin-top: 10px;
+                height: 45px;
+                font-weight: normal;
+            }
+            .new-miaosha-price {
+                position: relative;
+                /* margin-top: 10px; */
+                .new-miaosha-oldprice {
+                    display: block;
+                    color: #d3d3d3;
+                    font-size: 14px;
+                    text-decoration: line-through;
+                    font-weight: normal;
+                }
+                .new-miaosha-saleprice {
+                    display: block;
+                    color: #bb2b34;
+                    font-size: 16px;
+                }
+                .new-miaosha-afterdeposit {
+                    position: absolute;
+                    right: 10px;
+                    bottom: 0;
+                    font-size: 16px;
+                    font-weight: normal;
+                    em {
+                        font-size: 24px;
+                        font-style: normal;
+                        color: #bb2b34;
+                        font-weight: bolder;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
 @import "./footer.scss";
