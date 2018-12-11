@@ -63,3 +63,6 @@ html {
 em, strong, th {
   font-weight: normal;
   font-style: normal; }
+
+.clear {
+  clear: both; }

@@ -11,7 +11,7 @@ const connect = require("gulp-connect");
 const proxy = require("http-proxy-middleware")
 gulp.task("html", () => {
     // return  gulp.src(["./src/pages/*.html","!./src/pages/mySecret.html"]).pipe(gulp.dest("./dist/"));
-    return gulp.src(["./src/pages/*.html"]).pipe(gulp.dest("./dist/"));
+    return gulp.src(["./src/pages/*.html"]).pipe(gulp.dest("./dist/html"));
 })
 
 
@@ -45,6 +45,7 @@ gulp.task("sass", () => {
 gulp.task("watch", () => {
     gulp.watch("./src/pages/*.html", ["html"]);
     gulp.watch("./src/sass/*.scss", ["sass"]);
+    gulp.watch("./src/js/*.scss", ["js"]);
 })
 
 gulp.task("connect", () => {

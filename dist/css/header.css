@@ -64,6 +64,9 @@ em, strong, th {
   font-weight: normal;
   font-style: normal; }
 
+.clear {
+  clear: both; }
+
 .head {
   width: 100%; }
   .head .headerTopArea {

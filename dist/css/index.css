@@ -64,6 +64,9 @@ em, strong, th {
   font-weight: normal;
   font-style: normal; }
 
+.clear {
+  clear: both; }
+
 .head {
   width: 100%; }
   .head .headerTopArea {
@@ -390,6 +393,69 @@ em, strong, th {
             font-style: normal;
             color: #bb2b34;
             font-weight: bolder; }
+
+.piclist {
+  width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 20px; }
+  .piclist h2 {
+    text-align: center;
+    line-height: 50px;
+    margin: 30px 0px;
+    color: #9a9a9a;
+    font-size: 18px; }
+
+.shangzhuanglist {
+  margin-bottom: 20px; }
+  .shangzhuanglist ul {
+    display: flex;
+    justify-content: space-between; }
+    .shangzhuanglist ul li {
+      margin-right: 17px;
+      display: inline; }
+      .shangzhuanglist ul li .pic_one {
+        width: 590px; }
+        .shangzhuanglist ul li .pic_one a img {
+          display: block; }
+      .shangzhuanglist ul li div:first-child {
+        margin-bottom: 10px; }
+      .shangzhuanglist ul li h3 {
+        height: 28px;
+        padding: 20px 12px;
+        line-height: 28px;
+        border: 1px solid #e8e7ec;
+        border-top: 0px;
+        font-size: 14px; }
+        .shangzhuanglist ul li h3 span {
+          float: right;
+          color: #a10000;
+          font-family: Arial;
+          line-height: 24px;
+          font-size: 14px; }
+
+.kuzhuanglist ul {
+  display: flex;
+  justify-content: space-between; }
+  .kuzhuanglist ul li h3 {
+    width: 259px;
+    height: 28px;
+    padding: 20px 12px;
+    border: 1px solid #e8e7ec;
+    border-top: 0;
+    line-height: 28px;
+    display: flex;
+    justify-content: space-between; }
+    .kuzhuanglist ul li h3 span {
+      font-size: 14px;
+      color: #a10000; }
+      .kuzhuanglist ul li h3 span em {
+        font-size: 16px;
+        padding-left: 5px; }
+
+.otherlist ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
 
 .vanclFoot {
   overflow: hidden;
