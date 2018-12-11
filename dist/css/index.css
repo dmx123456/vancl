@@ -1,5 +1,4 @@
 @charset "UTF-8";
-
 body,
 div,
 dl,
@@ -22,711 +21,507 @@ textarea,
 p,
 th,
 td {
-    margin: 0;
-    padding: 0;
-}
+  margin: 0;
+  padding: 0; }
 
 body {
-    font-size: 12px;
-    font-family: "宋体";
-    color: #333;
-}
+  font-size: 12px;
+  font-family: "宋体";
+  color: #333; }
 
 a {
-    text-decoration: none;
-    color: #777;
-}
+  text-decoration: none;
+  color: #777; }
 
 li {
-    list-style: none;
-}
+  list-style: none; }
 
 a:hover {
-    color: red;
-}
+  color: red; }
 
 .fr {
-    float: right;
-}
+  float: right; }
 
 .fl {
-    float: left;
-}
+  float: left; }
 
 input {
-    /* border: 0; */
-    outline: none;
-}
+  /* border: 0; */
+  outline: none; }
 
 body,
 html {
-    width: 100%;
-    height: 100%;
-}
+  width: 100%;
+  height: 100%; }
 
 .slide-show {
-    z-index: 2;
-}
+  z-index: 2; }
 
 .slide-willhide {
-    z-index: 1;
-}
+  z-index: 1; }
 
-em,
-strong,
-th {
-    font-weight: normal;
-    font-style: normal;
-}
+em, strong, th {
+  font-weight: normal;
+  font-style: normal; }
 
 .head {
-    width: 100%;
-}
-
-.head .headerTopArea {
+  width: 100%; }
+  .head .headerTopArea {
     width: 100%;
     background: #f7f7f7;
-    border-bottom: 1px solid #ccc;
-}
-
-.head .headerTopArea .headerTop {
-    width: 1200px;
-    height: 31px;
-    margin: 0 auto;
-}
-
-.head .headerTopArea .headerTop .headerTopRight {
-    width: 135px;
-    height: 31px;
-    line-height: 31px;
-    float: right;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .headerTopRightNotice {
-    width: 55px;
-    height: 31px;
-    float: left;
-    padding-left: 26px;
-    background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat 0 5px;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .preferential {
-    width: 45px;
-    float: right;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .preferential .weixinbox {
-    float: left;
-    position: relative;
-    height: 31px;
-    width: 20px;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .preferential .weixin,
-.head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
-    height: 25px;
-    width: 20px;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .preferential .weixin {
-    background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat 0 6px;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
-    background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat 0 6px;
-}
-
-.head .headerTopArea .headerTop .headerTopRight .preferential .scan {
-    position: absolute;
-    left: -65px;
-    top: 31px;
-    height: 175px;
-    width: 150px;
-    display: inline-block;
-    cursor: pointer;
-    background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat 0 7px;
-    display: none;
-}
-
-.head .headerTopArea .headerTop .headerTopLeft .orderArea {
-    float: right;
-}
-
-.head .headerTopArea .headerTop .headerTopLeft .orderArea .order {
-    display: inline-block;
-    width: 62px;
-    height: 31px;
-    line-height: 31px;
-    margin-left: 13px;
-}
-
-.head .headerTopArea .headerTop .headerTopLeft .loginArea {
-    height: 31px;
-    line-height: 31px;
-    float: right;
-}
-
-.head .headerTopArea .headerTop .headerTopLeft .loginArea .welcome {
-    width: 150px;
-}
-
-.head .headerTopArea .headerTop .headerTopLeft .loginArea .login {
-    display: inline-block;
-    width: 24px;
-    height: 31px;
-    line-height: 31px;
-    margin-left: -3px;
-}
-
-.head .vanclLogoSearch {
+    border-bottom: 1px solid #ccc; }
+    .head .headerTopArea .headerTop {
+      width: 1200px;
+      height: 31px;
+      margin: 0 auto; }
+      .head .headerTopArea .headerTop .headerTopRight {
+        width: 135px;
+        height: 31px;
+        line-height: 31px;
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopRight .headerTopRightNotice {
+          width: 55px;
+          height: 31px;
+          float: left;
+          padding-left: 26px;
+          background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat 0 5px; }
+        .head .headerTopArea .headerTop .headerTopRight .preferential {
+          width: 45px;
+          float: right; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixinbox {
+            float: left;
+            position: relative;
+            height: 31px;
+            width: 20px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixin,
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
+            height: 25px;
+            width: 20px;
+            display: inline-block;
+            cursor: pointer; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixin {
+            background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat 0 6px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
+            background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat 0 6px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .scan {
+            position: absolute;
+            left: -65px;
+            top: 31px;
+            height: 175px;
+            width: 150px;
+            display: inline-block;
+            cursor: pointer;
+            background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat 0 7px;
+            display: none; }
+      .head .headerTopArea .headerTop .headerTopLeft .orderArea {
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopLeft .orderArea .order {
+          display: inline-block;
+          width: 62px;
+          height: 31px;
+          line-height: 31px;
+          margin-left: 13px; }
+      .head .headerTopArea .headerTop .headerTopLeft .loginArea {
+        height: 31px;
+        line-height: 31px;
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopLeft .loginArea .welcome {
+          width: 150px; }
+        .head .headerTopArea .headerTop .headerTopLeft .loginArea .login {
+          display: inline-block;
+          width: 24px;
+          height: 31px;
+          line-height: 31px;
+          margin-left: -3px; }
+  .head .vanclLogoSearch {
     width: 1200px;
     height: 62px;
-    margin: 20px auto 25px;
-}
-
-.head .vanclLogoSearch .vanclSearch {
-    width: 438px;
-    padding-top: 8px;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab {
-    height: 29px;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab .Enter {
-    width: 249px;
-    height: 27px;
-    padding: 0px 5px;
-    line-height: 27px;
-    border: 1px solid #c9caca;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab .btn {
-    width: 49px;
-    height: 29px;
-    border: none;
-    cursor: pointer;
-    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab .active {
-    width: 105px;
-    height: 27px;
-    border: 1px solid #c1383e;
-    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
-    position: relative;
-    z-index: 10;
-    float: right;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab .active a.cartab {
-    display: block;
-    padding-left: 29px;
-    padding-top: 6px;
-    font-size: 12px;
-    color: #ffffff;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab .buycar {
-    width: 105px;
-    height: 27px;
-    border: 1px solid #c1383e;
-    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
-    position: relative;
-    z-index: 10;
-}
-
-.head .vanclLogoSearch .vanclSearch .searchTab .buycar .BuycarTab {
-    width: 315px;
-    height: auto;
-    padding: 5px;
-    border: 1px solid #b81c22;
-    position: absolute;
-    right: -1px;
-    top: 27px;
-    _right: -2px;
-    background: #ffffff;
-    display: none;
-}
-
-.head .vanclLogoSearch .vanclSearch .hotWord {
-    width: 440px;
-    padding-top: 5px;
-    line-height: 18px;
-    color: #727171;
-    padding-left: 15px;
-}
-
-.head .vanclLogoSearch .vanclSearch p a {
-    color: #727171;
-    margin: 0 5px 0 0;
-}
-
-.head .navlist {
+    margin: 20px auto 25px; }
+    .head .vanclLogoSearch .vanclSearch {
+      width: 438px;
+      padding-top: 8px; }
+      .head .vanclLogoSearch .vanclSearch .searchTab {
+        height: 29px; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .Enter {
+          width: 249px;
+          height: 27px;
+          padding: 0px 5px;
+          line-height: 27px;
+          border: 1px solid #c9caca; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .btn {
+          width: 49px;
+          height: 29px;
+          border: none;
+          cursor: pointer;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .active {
+          width: 105px;
+          height: 27px;
+          border: 1px solid #c1383e;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+          position: relative;
+          z-index: 10;
+          float: right; }
+          .head .vanclLogoSearch .vanclSearch .searchTab .active a.cartab {
+            display: block;
+            padding-left: 29px;
+            padding-top: 6px;
+            font-size: 12px;
+            color: #ffffff; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .buycar {
+          width: 105px;
+          height: 27px;
+          border: 1px solid #c1383e;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+          position: relative;
+          z-index: 10; }
+          .head .vanclLogoSearch .vanclSearch .searchTab .buycar .BuycarTab {
+            width: 315px;
+            height: auto;
+            padding: 5px;
+            border: 1px solid #b81c22;
+            position: absolute;
+            right: -1px;
+            top: 27px;
+            _right: -2px;
+            background: #ffffff;
+            display: none; }
+      .head .vanclLogoSearch .vanclSearch .hotWord {
+        width: 440px;
+        padding-top: 5px;
+        line-height: 18px;
+        color: #727171;
+        padding-left: 15px; }
+      .head .vanclLogoSearch .vanclSearch p a {
+        color: #727171;
+        margin: 0 5px 0 0; }
+  .head .navlist {
     width: 1000px;
     height: 22px;
     margin: 30px auto;
     padding-left: 200px;
     position: relative;
-    z-index: 300;
-}
-
-.head .navlist ul li {
-    float: left;
-    width: 99px;
-    line-height: 22px;
-    padding: 0px 0px 10px;
-    text-align: center;
-    font-size: 16px;
-    font-family: "Microsoft YaHei";
-    position: relative;
-    z-index: 220;
-}
-
-.head .navlist ul li.vancllogo_Con {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding: 0px;
-    background: none;
-}
-
-.head .navlist ul li.vancllogo_Con a {
-    display: block;
-    width: 185px;
-    height: 46px;
-    background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll;
-}
-
-.head .navlist ul li .NavLine {
-    display: block;
-    height: 16px;
-    width: 1px;
-    border-right: solid 1px #888;
-    position: absolute;
-    right: 1px;
-    top: 5px;
-    overflow: hidden;
-}
-
-.head .navlist ul li .subNav {
-    width: 99px;
-    background: #fff;
-    position: absolute;
-    left: -2px;
-    top: 30px;
-    display: none;
-}
-
-.head .navlist ul li .subNav span {
-    display: block;
-    width: 100%;
-    height: 5px;
-    border-top: 5px solid #B81C22;
-}
-
-.head .navlist ul li .subNav ul {
-    border: 1px solid #efefef;
-    border-top: 0px;
-    padding: 10px 0px;
-}
-
-.head .navlist ul li .subNav ul li {
-    text-align: center;
-    width: 99px;
-    line-height: 35px;
-    background: none;
-    padding: 0px;
-    float: none;
-    font-size: 16px;
-    position: relative;
-    z-index: 220;
-}
+    z-index: 300; }
+    .head .navlist ul li {
+      float: left;
+      width: 99px;
+      line-height: 22px;
+      padding: 0px 0px 10px;
+      text-align: center;
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      position: relative;
+      z-index: 220; }
+      .head .navlist ul li.vancllogo_Con {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0px;
+        background: none; }
+        .head .navlist ul li.vancllogo_Con a {
+          display: block;
+          width: 185px;
+          height: 46px;
+          background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll; }
+      .head .navlist ul li .NavLine {
+        display: block;
+        height: 16px;
+        width: 1px;
+        border-right: solid 1px #888;
+        position: absolute;
+        right: 1px;
+        top: 5px;
+        overflow: hidden; }
+      .head .navlist ul li .subNav {
+        width: 99px;
+        background: #fff;
+        position: absolute;
+        left: -2px;
+        top: 30px;
+        display: none; }
+        .head .navlist ul li .subNav span {
+          display: block;
+          width: 100%;
+          height: 5px;
+          border-top: 5px solid #B81C22; }
+        .head .navlist ul li .subNav ul {
+          border: 1px solid #efefef;
+          border-top: 0px;
+          padding: 10px 0px; }
+          .head .navlist ul li .subNav ul li {
+            text-align: center;
+            width: 99px;
+            line-height: 35px;
+            background: none;
+            padding: 0px;
+            float: none;
+            font-size: 16px;
+            position: relative;
+            z-index: 220; }
 
 .banner {
-    width: 1200px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.banner ul {
-    width: 100%;
-}
-
-.banner ul li {
-    width: 100%;
-    position: absolute;
-}
-
-.banner .foucsTab {
-    padding-top: 550px;
-}
-
-.banner .foucsTab button {
-    width: 40px;
-}
-
-.banner .foucsTab #left,
-.banner .foucsTab #right {
-    cursor: pointer;
-    height: 60px;
-    width: 28px;
-    display: inline-block;
-    z-index: 10;
-}
-
-.banner .foucsTab #left {
-    background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
-    left: 10px;
-    position: absolute;
-    top: 230px;
-}
-
-.banner .foucsTab #right {
-    background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
-    position: absolute;
-    right: 10px;
-    top: 230px;
-}
-
-.banner .pageList {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; }
+  .banner ul {
+    width: 100%; }
+    .banner ul li {
+      width: 100%;
+      position: absolute; }
+  .banner .foucsTab {
+    padding-top: 550px; }
+    .banner .foucsTab button {
+      width: 40px; }
+    .banner .foucsTab #left,
+    .banner .foucsTab #right {
+      cursor: pointer;
+      height: 60px;
+      width: 28px;
+      display: inline-block;
+      z-index: 10; }
+    .banner .foucsTab #left {
+      background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
+      left: 10px;
+      position: absolute;
+      top: 230px; }
+    .banner .foucsTab #right {
+      background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
+      position: absolute;
+      right: 10px;
+      top: 230px; }
+  .banner .pageList {
     position: absolute;
     bottom: 20px;
     z-index: 9;
     width: 100%;
-    text-align: center;
-}
-
-.banner .pageList span {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    background: #eeeeee;
-    border-radius: 50%;
-    margin: 0 3px;
-}
-
-.banner .pageList span.active {
-    background: crimson;
-}
+    text-align: center; }
+    .banner .pageList span {
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      background: #eeeeee;
+      border-radius: 50%;
+      margin: 0 3px; }
+      .banner .pageList span.active {
+        background: crimson; }
 
 .getMoney {
-    width: 100%;
-}
-
-.getMoney img {
+  width: 100%; }
+  .getMoney img {
     display: block;
     width: 1200px;
     height: 60px;
-    margin: 20px auto;
-}
+    margin: 20px auto; }
 
 .new_miaosha_area {
-    margin: 0 auto;
-    width: 1200px;
-}
-
-.new_miaosha_area h2 {
+  margin: 0 auto;
+  width: 1200px; }
+  .new_miaosha_area h2 {
     height: 64px;
     line-height: 64px;
     text-align: center;
     color: #9a9a9a;
     font-size: 18px;
-    font-weight: normal;
-}
-
-.new_miaosha_area h2 #seckill_timecounting {
-    color: #a10000;
-    margin-left: 20px;
-    float: right;
-    padding-right: 30px;
-}
-
-.new_miaosha_area h2 #seckill_timecounting em {
-    padding-left: 42px;
-}
-
-.new_miaosha_area h2 #seckill_timecounting em .wordBox {
-    color: #fff;
-    padding-right: 25px;
-}
-
-.new_miaosha_area .new_miaosha_title {
-    background: url(http://i1.vanclimg.com/cms/20181126/mm.jpg) no-repeat scroll 0px 0px;
-}
+    font-weight: normal; }
+    .new_miaosha_area h2 #seckill_timecounting {
+      color: #a10000;
+      margin-left: 20px;
+      float: right;
+      padding-right: 30px; }
+      .new_miaosha_area h2 #seckill_timecounting em {
+        padding-left: 45px;
+        display: inline-block; }
+        .new_miaosha_area h2 #seckill_timecounting em:first-child {
+          color: #fff;
+          padding-right: 25px; }
+  .new_miaosha_area .new_miaosha_title {
+    background: url(http://i1.vanclimg.com/cms/20181126/mm.jpg) no-repeat scroll 0px 0px; }
 
 #seckill_container {
-    width: 1200px;
-    color: #474747;
-    font-weight: bold;
-    margin: 0 auto;
-}
-
-#seckill_container ul {
+  width: 1200px;
+  color: #474747;
+  font-weight: bold;
+  margin: 0 auto; }
+  #seckill_container ul {
     overflow: hidden;
     margin: 10px 0 0 0;
     padding: 0;
-    width: 1210px;
-}
-
-#seckill_container ul li {
-    float: left;
-    width: 232px;
-    margin-right: 10px;
-    list-style: none;
-}
-
-#seckill_container ul li a:focus {
-    text-decoration: none;
-    color: #474747;
-}
-
-#seckill_container ul li a {
-    color: #000;
-}
-
-#seckill_container ul li img {
-    width: 232px;
-    height: 232px;
-    display: block;
-}
-
-#seckill_container ul li .new-miaosha-productname {
-    font-size: 16px;
-    margin-top: 10px;
-    height: 45px;
-    font-weight: normal;
-}
-
-#seckill_container ul li .new-miaosha-price {
-    position: relative;
-    /* margin-top: 10px; */
-}
-
-#seckill_container ul li .new-miaosha-price .new-miaosha-oldprice {
-    display: block;
-    color: #d3d3d3;
-    font-size: 14px;
-    text-decoration: line-through;
-    font-weight: normal;
-}
-
-#seckill_container ul li .new-miaosha-price .new-miaosha-saleprice {
-    display: block;
-    color: #bb2b34;
-    font-size: 16px;
-}
-
-#seckill_container ul li .new-miaosha-price .new-miaosha-afterdeposit {
-    position: absolute;
-    right: 10px;
-    bottom: 0;
-    font-size: 16px;
-    font-weight: normal;
-}
-
-#seckill_container ul li .new-miaosha-price .new-miaosha-afterdeposit em {
-    font-size: 24px;
-    font-style: normal;
-    color: #bb2b34;
-    font-weight: bolder;
-}
+    width: 1210px; }
+    #seckill_container ul li {
+      float: left;
+      width: 232px;
+      margin-right: 10px;
+      list-style: none; }
+      #seckill_container ul li a:focus {
+        text-decoration: none;
+        color: #474747; }
+      #seckill_container ul li a {
+        color: #000; }
+      #seckill_container ul li img {
+        width: 232px;
+        height: 232px;
+        display: block; }
+      #seckill_container ul li .new-miaosha-productname {
+        font-size: 16px;
+        margin-top: 10px;
+        height: 45px;
+        font-weight: normal; }
+      #seckill_container ul li .new-miaosha-price {
+        position: relative;
+        /* margin-top: 10px; */ }
+        #seckill_container ul li .new-miaosha-price .new-miaosha-oldprice {
+          display: block;
+          color: #d3d3d3;
+          font-size: 14px;
+          text-decoration: line-through;
+          font-weight: normal; }
+        #seckill_container ul li .new-miaosha-price .new-miaosha-saleprice {
+          display: block;
+          color: #bb2b34;
+          font-size: 16px; }
+        #seckill_container ul li .new-miaosha-price .new-miaosha-afterdeposit {
+          position: absolute;
+          right: 10px;
+          bottom: 0;
+          font-size: 16px;
+          font-weight: normal; }
+          #seckill_container ul li .new-miaosha-price .new-miaosha-afterdeposit em {
+            font-size: 24px;
+            font-style: normal;
+            color: #bb2b34;
+            font-weight: bolder; }
 
 .vanclFoot {
-    overflow: hidden;
-    width: 1118px;
-    height: 282px;
-    margin: 0px auto;
-    padding: 0px 40px 0px;
-    border: 1px solid #e0e0e1;
-    margin-bottom: 25px;
-}
-
-.vanclFoot .vanclCustomer {
+  overflow: hidden;
+  width: 1118px;
+  height: 282px;
+  margin: 0px auto;
+  padding: 0px 40px 0px;
+  border: 1px solid #e0e0e1;
+  margin-bottom: 25px; }
+  .vanclFoot .vanclCustomer {
     margin: 33px 0px 23px;
-    overflow: hidden;
-}
-
-.vanclFoot .vanclCustomer ul li {
-    float: left;
-    width: 370px;
-    height: 138px;
-    border-right: 1px solid #e0e0e1;
-    margin-right: 0px;
-}
-
-.vanclFoot .vanclCustomer ul li p {
-    text-align: center;
-    font-size: 14px;
-    color: #727171;
-    line-height: 26px;
-}
-
-.vanclFoot .vanclCustomer ul li p img {
-    display: block;
-    margin: 20px auto;
-}
-
-.vanclFoot .vanclCustomer ul li:first-child p {
-    text-align: center;
-    font-size: 14px;
-    color: #727171;
-    line-height: 26px;
-}
-
-.vanclFoot .vanclCustomer ul li:last-child.twocode {
-    border-right: none;
-}
-
-.vanclFoot .vanclCustomer ul li:last-child.twocode p img {
-    margin-bottom: 10px;
-}
-
-.vanclFoot .vanclCustomer ul li a:link,
-.vanclFoot .vanclCustomer ul li a:visited {
-    color: #333;
-    text-decoration: none;
-}
-
-.vanclFoot .vanclCustomer ul li a:link .onlineTime,
-.vanclFoot .vanclCustomer ul li a:visited .onlineTime {
-    margin: 0px auto;
-    width: 156px;
-    height: 32px;
-    text-align: center;
-    line-height: 32px;
-    font-size: 14px;
-    background: #b81c22;
-    color: #ffffff;
-}
-
-.vanclFoot .vanclCustomer ul li a:link .onlineCustomer,
-.vanclFoot .vanclCustomer ul li a:visited .onlineCustomer {
-    margin: 15px auto 30px;
-}
-
-.vanclFoot .publicfooterclear {
-    zoom: 1;
-}
-
-.vanclFoot .vanclOthers {
+    overflow: hidden; }
+    .vanclFoot .vanclCustomer ul li {
+      float: left;
+      width: 370px;
+      height: 138px;
+      border-right: 1px solid #e0e0e1;
+      margin-right: 0px; }
+      .vanclFoot .vanclCustomer ul li p {
+        text-align: center;
+        font-size: 14px;
+        color: #727171;
+        line-height: 26px; }
+        .vanclFoot .vanclCustomer ul li p img {
+          display: block;
+          margin: 20px auto; }
+      .vanclFoot .vanclCustomer ul li:first-child p {
+        text-align: center;
+        font-size: 14px;
+        color: #727171;
+        line-height: 26px; }
+      .vanclFoot .vanclCustomer ul li:last-child.twocode {
+        border-right: none; }
+        .vanclFoot .vanclCustomer ul li:last-child.twocode p img {
+          margin-bottom: 10px; }
+      .vanclFoot .vanclCustomer ul li a:link, .vanclFoot .vanclCustomer ul li a:visited {
+        color: #333;
+        text-decoration: none; }
+        .vanclFoot .vanclCustomer ul li a:link .onlineTime, .vanclFoot .vanclCustomer ul li a:visited .onlineTime {
+          margin: 0px auto;
+          width: 156px;
+          height: 32px;
+          text-align: center;
+          line-height: 32px;
+          font-size: 14px;
+          background: #b81c22;
+          color: #ffffff; }
+        .vanclFoot .vanclCustomer ul li a:link .onlineCustomer, .vanclFoot .vanclCustomer ul li a:visited .onlineCustomer {
+          margin: 15px auto 30px; }
+  .vanclFoot .publicfooterclear {
+    zoom: 1; }
+  .vanclFoot .vanclOthers {
     height: 26px;
     padding: 17px 0px 14px;
     background: #f8f8f8;
     width: 100%;
-    margin: 0;
-}
-
-.vanclFoot .vanclOthers ul li {
-    padding: 0px 65px;
-    line-height: 26px;
-    border-right: 1px solid #dadadb;
-    width: auto;
-    text-align: center;
-    margin-right: 0px;
-    float: left;
-}
-
-.vanclFoot .vanclOthers ul li:last-child {
-    border-right: none;
-}
+    margin: 0; }
+    .vanclFoot .vanclOthers ul li {
+      padding: 0px 65px;
+      line-height: 26px;
+      border-right: 1px solid #dadadb;
+      width: auto;
+      text-align: center;
+      margin-right: 0px;
+      float: left; }
+    .vanclFoot .vanclOthers ul li:last-child {
+      border-right: none; }
 
 .footerArea .footBottom {
-    width: 100%;
-    height: auto;
-    margin: 0px auto;
-    border-top: 1px solid #3e3a39;
-}
-
-.footerArea .footBottom .footBottomTab {
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  border-top: 1px solid #3e3a39; }
+  .footerArea .footBottom .footBottomTab {
     width: 1200px;
     height: auto;
-    margin: 10px auto;
-}
-
-.footerArea .footBottom .footBottomTab p {
-    text-align: center;
-    line-height: 25px;
-    color: #3e3a39;
-}
+    margin: 10px auto; }
+    .footerArea .footBottom .footBottomTab p {
+      text-align: center;
+      line-height: 25px;
+      color: #3e3a39; }
 
 .footerArea .subFooter {
-    width: 980px;
-    margin: 0px auto 25px;
-    text-align: center;
-}
-
-.footerArea .subFooter .redLogo {
+  width: 980px;
+  margin: 0px auto 25px;
+  text-align: center; }
+  .footerArea .subFooter .redLogo {
     background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -581px transparent;
     display: inline-block;
     height: 42px;
-    width: 113px;
-}
-
-.footerArea .subFooter .costumeOrg {
+    width: 113px; }
+  .footerArea .subFooter .costumeOrg {
     background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
     display: inline-block;
     height: 45px;
-    width: 156px;
-}
-
-.footerArea .subFooter .wsjyBzzx {
+    width: 156px; }
+  .footerArea .subFooter .wsjyBzzx {
     background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -675px transparent;
     display: inline-block;
     height: 42px;
-    width: 96px;
-}
-
-.footerArea .subFooter .vanclMsg {
+    width: 96px; }
+  .footerArea .subFooter .vanclMsg {
     background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
     display: inline-block;
     height: 42px;
-    width: 101px;
-}
-
-.footerArea .subFooter .vanclqingNian {
+    width: 101px; }
+  .footerArea .subFooter .vanclqingNian {
     background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
     display: inline-block;
     height: 42px;
-    width: 42px;
-}
-
-.footerArea .subFooter a,
-.footerArea .subFooter span {
-    margin: 0 10px;
-}
+    width: 42px; }
+  .footerArea .subFooter a, .footerArea .subFooter span {
+    margin: 0 10px; }
 
 .BayWindow {
+  width: 73px;
+  height: 205px;
+  border: 1px solid #b81b22;
+  border-bottom: none;
+  margin-bottom: 30px; }
+  .BayWindow ul li {
     width: 73px;
-    height: 205px;
-    border: 1px solid #b81b22;
-    border-bottom: none;
-    margin-bottom: 30px;
-}
-
-.BayWindow ul li {
-    width: 73px;
-    border-bottom: 1px solid #b81b22;
-}
-
-.BayWindow ul li a {
-    display: block;
-    width: 73px;
-}
-
-.BayWindow ul li:first-child.downApp a {
-    height: 76px;
-    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px;
-}
-
-.BayWindow ul li:nth-child(2).online a {
-    height: 71px;
-    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -78px;
-}
-
-.BayWindow ul li:last-child.BlackTop a {
-    height: 55px;
-    background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -149px;
-}
+    border-bottom: 1px solid #b81b22; }
+    .BayWindow ul li a {
+      display: block;
+      width: 73px; }
+    .BayWindow ul li:first-child.downApp a {
+      height: 76px;
+      background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px; }
+    .BayWindow ul li:nth-child(2).online a {
+      height: 71px;
+      background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -78px; }
+    .BayWindow ul li:last-child.BlackTop a {
+      height: 55px;
+      background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -149px; }

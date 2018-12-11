@@ -93,12 +93,14 @@
             float: right;
             padding-right: 30px;
             em{
-                padding-left: 42px;
-                .wordBox{
+                padding-left: 45px; 
+                display: inline-block;
+                &:first-child{
                     color: #fff;
                     padding-right: 25px;
                 }
             }
+            
         }
     }
     .new_miaosha_title {

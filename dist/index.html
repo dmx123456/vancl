@@ -213,14 +213,81 @@
         </div>
 
         <!-- 抢购 -->
-        <div class="new_miaosha_area"> <a target="blank" href="#">
+        <div class="new_miaosha_area">
+            <a target="blank" href="#">
                 <h2 class="new_miaosha_title">
                     <span id="seckill_timecounting"> </span>
                 </h2>
-            </a> </div>
+            </a>
+        </div>
         <div id="seckill_container">
             <ul>
 
+            </ul>
+        </div>
+        <!-- 抢购结束 -->
+        <div style="width:1200px;height:30px;margin:0 auto"></div>
+
+        <!-- 精选 -->
+        <div class=" piclist shangzhuanglist shangzhuanglist_top">
+            <h2>优选推荐</h2>
+            <ul>
+                <li class="pic_one">
+                    <a href="#" class="track" target="_blank">
+                        <img src="http://i5.vanclimg.com/cms/20181127/pc-4.0.jpg" alt="4.0日式免烫衬衫" width="590" height="440" />
+                    </a>
+                    <h3><span>充值购买更优惠</span>4.0日式免烫衬衫</h3>
+                </li>
+                <li class="pic_two">
+                    <div>
+                        <a href="#" class="track" target="_blank">
+                            <img src="http://i2.vanclimg.com/cms/20181120/pc02.jpg" alt="帆布鞋" width="290" height="180" />
+                        </a>
+                        <h3><span>充值购买更优惠</span>牛津纺衬衫</h3>
+                    </div>
+                    <div>
+                        <a href="#" class="track" target="_blank">
+                            <img src="http://i3.vanclimg.com/cms/20181120/pc03.jpg" alt="潮鞋" width="290" height="180">
+                        </a>
+                        <h3><span>充值购买更优惠</span>中空棉拉链开衫 </h3>
+                    </div>
+                </li>
+                <li class="pic_three" style="margin-right: 0px;">
+                    <a href="#" class="track" target="_blank"><img src="http://i2.vanclimg.com/cms/20181127/pc07.jpg"
+                            alt="运动户外" width="286" height="440">
+                    </a>
+                    <h3> <span>充值购买更优惠</span>外套</h3>
+                </li>
+            </ul>
+        </div>
+        <div class=" piclist shangzhuanglist">
+            <ul>
+                <li class="pic_one">
+                    <a href="#" class="track" target="_blank">
+                        <img src="http://i3.vanclimg.com/cms/20181127/xxx.jpg" alt="凡客牛津纺衬衫" width="590" height="440" />
+                    </a>
+                    <h3> <span>充值购买更优惠</span>羽绒服</h3>
+                </li>
+                <li class="pic_two">
+                    <div>
+                        <a href="#" class="track" target="_blank">
+                            <img src="http://i3.vanclimg.com/cms/20181127/x.jpg" alt="纳米防污vt" width="290" height="180" />
+                        </a>
+                        <h3><span>充值购买更优惠</span> 熊本熊卫衣</h3>
+                    </div>
+                    <div>
+                        <a href="#" class="track" target="_blank">
+                            <img src="http://i5.vanclimg.com/cms/20181127/pc05.jpg" alt="针织衫" width="290" height="180" />
+                        </a>
+                        <h3><span>充值购买更优惠</span>针织衫</h3>
+                    </div>
+                <li class="pic_three" style="margin-right: 0px;">
+                    <a href="#" class="track" target="_blank">
+                        <img src="http://i4.vanclimg.com/cms/20181127/pc006.jpg" alt="外套" width="286" height="440">
+                    </a>
+                    <h3><span>充值购买更优惠</span>户外运动</h3>
+                </li>
+                </li>
             </ul>
         </div>
 
@@ -291,30 +358,12 @@
             parent: ".weixinbox",
             children: ".scan"
         });
-        _jsonp("http://recom-s.vancl.com/product/GetProductInfosBySeckill?productcodes=6378000,6379493,6379494,6377947,6378338") .then(function(res) {
-            console.log(res);
-            seckill(res);
-        })
-        function seckill(args){
-            var html="";
-            args.forEach(function(item) {
-                html+=`
-                <li> <a href="#" target="blank"> <img src="http://p3.vanclimg.com/232/232/product/6/3/7/${item.ProductCode}/mid/${item.Photos[0].FileName}"
-                            alt="${item.ProductName}">
-                        <div class="new-miaosha-productname"> <span>${item.ProductName}</span> </div>
-                        <div class="new-miaosha-price"> <span class="new-miaosha-oldprice">&yen; <em>${item.Price}</em> </span>
-                            <span class="new-miaosha-saleprice">&yen; <em>${item.SPrice}</em> </span> <span class="new-miaosha-afterdeposit">充值后
-                                <em>999</em>元</span> </div>
-                    </a> </li>
-                `;
-            })
-            $("#seckill_container ul").html(html);
-            return html;
-        }
+        
     </script>
     <script type="module">
-        import banner from "../js/banner.js"
+        import {banner,Seckill} from "../js/index.js"
         banner.init();
+        Seckill();
     </script>
 </body>
 
