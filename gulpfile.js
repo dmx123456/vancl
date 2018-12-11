@@ -10,31 +10,13 @@ const connect = require("gulp-connect");
 // 代理服务器;
 const proxy = require("http-proxy-middleware")
 gulp.task("html", () => {
-    // return  gulp.src(["./src/pages/*.html","!./src/pages/mySecret.html"]).pipe(gulp.dest("./dist/"));
-    return gulp.src(["./src/pages/*.html"]).pipe(gulp.dest("./dist/html"));
+    return gulp.src(["./src/pages/*.html"])
+        .pipe(gulp.dest("./dist/pages"));
 })
-
-
-//es6转es5
 gulp.task("js", () => {
-    // 需求和实现出现了冲突,应该怎么做?
-    return gulp.src("./src/js/*.js")
-        .pipe(sourcemaps.init())
-        .pipe(babel())
-        .pipe(concat("all.js"))
-        .pipe(sourcemaps.write("."))
-        .pipe(gulp.dest("./dist/javascripts"))
+    return gulp.src(["./src/js/*.js"])
+        .pipe(gulp.dest("./dist/js"));
 })
-
-//压缩js
-gulp.task("uglyjs", () => {
-    // 需求和实现出现了冲突,应该怎么做?
-    return gulp.src("./dist/javascripts/*.js")
-        .pipe(uglyfly())
-        .pipe(gulp.dest("./dist/minjs"))
-})
-
-gulp.task("build", ["js", "uglyjs"])
 
 gulp.task("sass", () => {
     return gulp.src("./src/sass/*.scss")
@@ -74,3 +56,23 @@ gulp.task("connect", () => {
     });
 })
 gulp.task("default", ["watch", "connect"]);
+//es6转es5
+// gulp.task("js", () => {
+//     // 需求和实现出现了冲突,应该怎么做?
+//     return gulp.src("./src/js/*.js")
+//         .pipe(sourcemaps.init())
+//         .pipe(babel())
+//         .pipe(concat("all.js"))
+//         .pipe(sourcemaps.write("."))
+//         .pipe(gulp.dest("./dist/javascripts"))
+// })
+
+//压缩js
+// gulp.task("uglyjs", () => {
+//     // 需求和实现出现了冲突,应该怎么做?
+//     return gulp.src("./dist/javascripts/*.js")
+//         .pipe(uglyfly())
+//         .pipe(gulp.dest("./dist/minjs"))
+// })
+
+// gulp.task("build", ["js", "uglyjs"])
