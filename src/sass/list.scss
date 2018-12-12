@@ -1,0 +1,214 @@
+@import "./header.scss";
+
+.sr_contation {
+    width: 1200px;
+    margin: 0 auto;
+
+    .sr_left {
+        margin-bottom: 15px;
+
+        .breadnav {
+            display: flex;
+            justify-content: space-between;
+            height: 40px;
+            line-height: 40px;
+
+            .locationdiv {
+                span {
+                    color: #b4b4b4;
+                }
+
+                a {
+                    color: #333;
+                }
+            }
+
+            .tsmsg {
+                color: #b4b4b4;
+
+                span {
+                    color: #a00000;
+                    padding: 0px 2px;
+                }
+            }
+        }
+
+        .selectarea {
+            border: 1px solid #C7CACD;
+
+            .selectareali {
+                display: flex;
+                border-bottom: 1px dashed #ccc;
+
+                .selectareaLeft {
+                    width: 66px;
+                    height: 34px;
+                    text-align: center;
+                    line-height: 34px;
+                    border-right: 1px solid #C7CACD;
+                }
+
+                .selectareaRight ul {
+                    display: flex;
+                    height: 34px;
+                    line-height: 34px;
+
+                    li {
+                        margin-left: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    .floatdiv {
+        width: 1200px;
+        margin: 0 auto;
+
+        .filterTabBar {
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 2px solid #b81c22;
+
+            .searchTabbar .hover {
+                width: 88px;
+                height: 30px;
+                background: #b81c22;
+                line-height: 30px;
+                text-align: center;
+
+                a {
+                    color: #fff;
+                }
+            }
+
+            .pageBox .pagediv {
+                display: flex;
+                height: 30px;
+                line-height: 30px;
+
+                span {
+                    margin-left: 12px;
+                    display: block;
+
+                    .jquery_pager_prevpage {
+                        background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -72px;
+                        height: 17px;
+                        width: 19px;
+                        cursor: pointer;
+                        display: block;
+                        margin-top: 7px;
+                    }
+
+                    .jquery_pager_nextpage {
+                        background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -89px;
+                        cursor: pointer;
+                        height: 17px;
+                        width: 48px;
+                        display: block;
+                        margin-top: 7px;
+                    }
+                }
+            }
+
+        }
+
+        .filterForm {
+            width: 1200px;
+            margin: 0 auto;
+            display: flex;
+
+            .searchCol ul {
+                display: flex;
+
+                li {
+                    width: 74px;
+                    height: 34px;
+                    border-left: 1px solid #ddd;
+                    border-right: 1px solid #ddd;
+                    text-align: center;
+                    line-height: 34px;
+
+                    a {
+                        span {
+                            display: inline-block;
+                            height: 11px;
+                            width: 11px;
+                            line-height: 11px;
+                            margin-left: 0px;
+                            text-indent: -9999px;
+                            vertical-align: middle;
+                            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat;
+
+                            &.upTrendBottom {
+                                background-position: 0px -3090px;
+                            }
+
+                            &.BottomTrendUpRed {
+                                background-position: -21px -3112px;
+                            }
+
+                        }
+                    }
+
+                    .triggerMore {
+                        display: inline-block;
+                        text-indent: -9999px;
+                        vertical-align: top;
+                        background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -3131px;
+                        width: 11px;
+                        height: 10px;
+                        position: relative;
+                        top: 13px;
+                        z-index: 4;
+                    }
+                }
+            }
+
+            .searchbarPrice {
+                width: 1200px;
+                height: 34px;
+                border-right: 1px solid #ddd;
+                width: 133px;
+
+                .searchbarText {
+                    position: relative;
+
+                    .searchbarInit {
+                        display: flex;
+                        position: absolute;
+                        width: 107px;
+                        height: 27px;
+                        left: 20px;
+                        top: 7px;
+
+                        input {
+                            width: 35px;
+                            height: 15px;
+                            padding-left: 3px;
+                        }
+                    }
+                }
+            }
+
+            .hbDpBox {
+                flex: 1;
+
+                ul {
+                    display: flex;
+                    justify-content: flex-end;
+                    li {
+                        width: 89px;
+                        height: 34px;
+                        background: #eee;
+                        border-left: 1px solid #ccc;
+                        text-align: center;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@import "./footer.scss";

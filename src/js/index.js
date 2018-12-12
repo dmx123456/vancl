@@ -1,79 +1,76 @@
 function Banner() {
-    $.extend(Banner.prototype, {
-        init: function () {
-            this.$slides = $(".slide");
-            this.$pages = $(".pageList");
-            this.index = 0;
-            this.prve_index = 0;
-            this.maxIndex = this.$slides.length - 1;
-            this.initpages();
-            this.bindEvent();
-            this.banner_timer();
-        },
-
-        bindEvent: function () {
-            $("#right").on("click", this.next.bind(this));
-            $("#left").on("click", this.prve.bind(this));
-            this.$pages.on("mouseover", "span", this.toIndex.bind(this))
-        },
-
-        next: function () {
-            this.prve_index = this.index;
-            if (this.index == this.maxIndex) {
-                this.index = 0;
-            } else {
-                this.index++;
-            }
-            this.changeClass();
-        },
-        prve: function () {
-            this.prve_index = this.index;
-            if (this.index == 0) {
-                this.index = this.maxIndex;
-            } else {
-                this.index--;
-            }
-            this.changeClass();
-        },
-        changeClass: function () {
-
-            this.$slides.eq(this.prve_index).addClass("slide-willhide")
-                .siblings(".slide")
-                .removeClass("slide-willhide")
-            this.$slides.eq(this.index).addClass("slide-show")
-                .siblings(".slide")
-                .removeClass("slide-show")
-
-            this.$pages.children().eq(this.index).addClass('active')
-                .siblings("span").removeClass("active");
-
-        },
-        initpages: function () {
-            for (var i = 0; i < this.$slides.length; i++) {
-                var $span = $("<span>");
-                if (i == this.index) {
-                    $span.addClass("active");
-                }
-                this.$pages.append($span)
-            }
-        },
-        toIndex: function (event) {
-            var e = event || window.event;
-            var target = e.target || e.srcElement;
-            this.prve_index = this.index;
-            this.index = this.$pages.children().index(target);
-            // console.log(i);
-            this.changeClass();
-        },
-        banner_timer: function () {
-            this.banner_timer = setInterval('$("#right").trigger("click")', 3000);
-            $(".banner").hover(function () {
-                clearInterval(this.banner_timer);
-            }, function () {
-                this.banner_timer = setInterval('$("#right").trigger("click")', 3000);
-            });
+    var $slides = $(".slide");
+    var $pages = $(".pageList");
+    // console.log($slides.eq(0).html());
+    var index = 0;
+    var prve_index = 0;
+    var maxIndex = $slides.length - 1;
+    initpages();
+    $("#left").on("click", function () {
+        prve_index = index; //将上一个赋值保留
+        if (index == 0) {
+            index = maxIndex;
+        } else {
+            index--;
         }
+        changeClass()
     })
+
+    $("#right").on("click", function () {
+        prve_index = index;
+        if (index == maxIndex) {
+            index = 0;
+        } else {
+            index++;
+        }
+        changeClass();
+    })
+
+    function changeClass () {
+        $slides.eq(prve_index)
+            .addClass("slide-willhide")
+            .siblings(".slide")
+            .removeClass("slide-willhide");
+
+        $slides.eq(index).addClass("slide-show")
+            .siblings(".slide")
+            .removeClass("slide-show")
+            .end()
+            .hide()
+            .stop()
+            .fadeIn();
+
+        $pages.children().eq(index).addClass("active")
+            .siblings("span")
+            .removeClass("active")
+    }
+
+    function initpages() {
+        for (var i = 0; i < $slides.length; i++) {
+            var $span = $("<span>");
+            if (i == index) {
+                $span.addClass("active");
+            }
+            $pages.append($span);
+        }
+    }
+
+    $pages.on("mouseover", "span", function (event) {
+        var e = event || window.event;
+        var target = e.target || e.srcElement;
+        prve_index = index;
+        index = $pages.children().index(target);
+        changeClass();
+    })
+
+
+    var banner_timer = setInterval('$("#right").trigger("click")', 3000);
+
+    $(".banner").hover(function () {
+        clearInterval(banner_timer);
+    }, function () {
+        banner_timer = setInterval('$("#right").trigger("click")', 3000);
+    });
 }
 
 function Seckill() {
@@ -81,6 +78,7 @@ function Seckill() {
         // console.log(res.data.productCodes.split(","));
         seckill(res);
     });
+
     function seckill(json) {
         var _starttime = seckill_getdatetime(json.data.startTime);
         var _endtime = seckill_getdatetime(json.data.endTime);
@@ -88,7 +86,7 @@ function Seckill() {
         var con = json.data.productCodes;
         var url = "http://recom-s.vancl.com/product/GetProductInfosBySeckill?productcodes=";
         _jsonp(url + con).then(function (res) {
-            console.log(res);
+            // console.log(res);
 
             seckill_con(res);
         });
@@ -201,8 +199,7 @@ function Seckill() {
 }
 
 
-var banner = new Banner();
 export {
-    banner,
+    Banner,
     Seckill
 };

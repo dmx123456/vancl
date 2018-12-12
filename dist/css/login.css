@@ -1,0 +1,142 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 12px;
+  font-family: "Microsoft Yahei";
+  color: #333; }
+
+a {
+  text-decoration: none;
+  color: #777; }
+
+li {
+  list-style: none; }
+
+a:hover {
+  color: red; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+input {
+  /* border: 0; */
+  outline: none; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.slide-show {
+  z-index: 2; }
+
+.slide-willhide {
+  z-index: 1; }
+
+em, strong, th {
+  font-weight: normal;
+  font-style: normal; }
+
+.clear {
+  clear: both; }
+
+#Head {
+  border-bottom: 1px solid #7a7f89;
+  height: 40px;
+  padding-bottom: 15px;
+  width: 1200px;
+  font-size: 12px;
+  color: #333333;
+  margin: 15px auto 0;
+  display: flex;
+  justify-content: space-between; }
+  #Head .logo {
+    background: url(http://i1.vanclimg.com/cms/20160119/logo_new.jpg) no-repeat 0 0;
+    display: inline-block;
+    height: 50px;
+    width: 187px; }
+  #Head p {
+    display: flex;
+    align-items: flex-end; }
+    #Head p a {
+      color: #333333; }
+
+.wrapper {
+  width: 1200px;
+  margin: 50px auto 10px;
+  display: flex;
+  flex-wrap: wrap; }
+  .wrapper .title {
+    width: 100%;
+    height: 25px; }
+    .wrapper .title h3 {
+      font-size: 22px;
+      color: #979797;
+      font-weight: 900;
+      text-align: left;
+      height: 25px;
+      line-height: 25px;
+      float: right;
+      margin: 0 100px 0 0;
+      width: 400px;
+      position: relative; }
+      .wrapper .title h3 span {
+        font-size: 14px;
+        font-weight: normal;
+        position: absolute;
+        right: 0px;
+        bottom: 0px; }
+        .wrapper .title h3 span a {
+          color: #b42025; }
+  .wrapper .advert {
+    margin: 18px 0 0 150px; }
+    .wrapper .advert img {
+      width: 465px; }
+  .wrapper .login {
+    width: 400px;
+    margin: 18px 0 20px 85px;
+    border: 1px solid #cbcbcb; }
+    .wrapper .login .tag {
+      width: 100%; }
+      .wrapper .login .tag ul {
+        width: 100%;
+        display: flex;
+        border-bottom: 1px solid #cbcbcb; }
+        .wrapper .login .tag ul li {
+          width: 50%;
+          height: 35px;
+          text-align: center;
+          line-height: 35px;
+          font-size: 14px;
+          cursor: pointer;
+          background: #f5f5f5; }
+          .wrapper .login .tag ul li.on {
+            background: #b42025;
+            font-weight: 900;
+            color: #fff; }

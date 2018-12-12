@@ -262,200 +262,144 @@ em, strong, th {
             position: relative;
             z-index: 220; }
 
-.banner {
+.sr_contation {
   width: 1200px;
-  margin: 0 auto;
-  position: relative; }
-  .banner ul {
-    width: 100%; }
-    .banner ul li {
-      width: 100%;
-      position: absolute; }
-  .banner .foucsTab {
-    padding-top: 550px; }
-    .banner .foucsTab button {
-      width: 40px; }
-    .banner .foucsTab #left,
-    .banner .foucsTab #right {
-      cursor: pointer;
-      height: 60px;
-      width: 28px;
-      display: inline-block;
-      z-index: 10; }
-    .banner .foucsTab #left {
-      background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll 0px 0px;
-      left: 10px;
-      position: absolute;
-      top: 230px; }
-    .banner .foucsTab #right {
-      background: url(http://i3.vanclimg.com/cms/20160918/focus_lr0918.png) no-repeat scroll -52px 0px;
-      position: absolute;
-      right: 10px;
-      top: 230px; }
-  .banner .pageList {
-    position: absolute;
-    bottom: 20px;
-    z-index: 9;
-    width: 100%;
-    text-align: center; }
-    .banner .pageList span {
-      display: inline-block;
-      width: 15px;
-      height: 15px;
-      background: #eeeeee;
-      border-radius: 50%;
-      margin: 0 3px; }
-      .banner .pageList span.active {
-        background: crimson; }
-
-.getMoney {
-  width: 100%; }
-  .getMoney img {
-    display: block;
-    width: 1200px;
-    height: 60px;
-    margin: 20px auto; }
-
-.new_miaosha_area {
-  margin: 0 auto;
-  width: 1200px; }
-  .new_miaosha_area h2 {
-    height: 64px;
-    line-height: 64px;
-    text-align: center;
-    color: #9a9a9a;
-    font-size: 18px;
-    font-weight: normal; }
-    .new_miaosha_area h2 #seckill_timecounting {
-      color: #a10000;
-      margin-left: 20px;
-      float: right;
-      padding-right: 30px; }
-      .new_miaosha_area h2 #seckill_timecounting em {
-        padding-left: 45px;
-        display: inline-block; }
-        .new_miaosha_area h2 #seckill_timecounting em:first-child {
-          color: #fff;
-          padding-right: 25px; }
-  .new_miaosha_area .new_miaosha_title {
-    background: url(http://i1.vanclimg.com/cms/20181126/mm.jpg) no-repeat scroll 0px 0px; }
-
-#seckill_container {
-  width: 1200px;
-  color: #474747;
-  font-weight: bold;
   margin: 0 auto; }
-  #seckill_container ul {
-    overflow: hidden;
-    margin: 10px 0 0 0;
-    padding: 0;
-    width: 1210px; }
-    #seckill_container ul li {
-      float: left;
-      width: 232px;
-      margin-right: 10px;
-      list-style: none; }
-      #seckill_container ul li a:focus {
-        text-decoration: none;
-        color: #474747; }
-      #seckill_container ul li a {
-        color: #000; }
-      #seckill_container ul li img {
-        width: 232px;
-        height: 232px;
-        display: block; }
-      #seckill_container ul li .new-miaosha-productname {
-        font-size: 16px;
-        margin-top: 10px;
-        height: 45px;
-        font-weight: normal; }
-      #seckill_container ul li .new-miaosha-price {
-        position: relative;
-        /* margin-top: 10px; */ }
-        #seckill_container ul li .new-miaosha-price .new-miaosha-oldprice {
-          display: block;
-          color: #d3d3d3;
-          font-size: 14px;
-          text-decoration: line-through;
-          font-weight: normal; }
-        #seckill_container ul li .new-miaosha-price .new-miaosha-saleprice {
-          display: block;
-          color: #bb2b34;
-          font-size: 16px; }
-        #seckill_container ul li .new-miaosha-price .new-miaosha-afterdeposit {
-          position: absolute;
-          right: 10px;
-          bottom: 0;
-          font-size: 16px;
-          font-weight: normal; }
-          #seckill_container ul li .new-miaosha-price .new-miaosha-afterdeposit em {
-            font-size: 24px;
-            font-style: normal;
-            color: #bb2b34;
-            font-weight: bolder; }
-
-.piclist {
-  width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 20px; }
-  .piclist h2 {
-    text-align: center;
-    line-height: 50px;
-    margin: 30px 0px;
-    color: #9a9a9a;
-    font-size: 18px; }
-
-.shangzhuanglist {
-  margin-bottom: 20px; }
-  .shangzhuanglist ul {
-    display: flex;
-    justify-content: space-between; }
-    .shangzhuanglist ul li {
-      margin-right: 17px;
-      display: inline; }
-      .shangzhuanglist ul li .pic_one {
-        width: 590px; }
-        .shangzhuanglist ul li .pic_one a img {
+  .sr_contation .sr_left {
+    margin-bottom: 15px; }
+    .sr_contation .sr_left .breadnav {
+      display: flex;
+      justify-content: space-between;
+      height: 40px;
+      line-height: 40px; }
+      .sr_contation .sr_left .breadnav .locationdiv span {
+        color: #b4b4b4; }
+      .sr_contation .sr_left .breadnav .locationdiv a {
+        color: #333; }
+      .sr_contation .sr_left .breadnav .tsmsg {
+        color: #b4b4b4; }
+        .sr_contation .sr_left .breadnav .tsmsg span {
+          color: #a00000;
+          padding: 0px 2px; }
+    .sr_contation .sr_left .selectarea {
+      border: 1px solid #C7CACD; }
+      .sr_contation .sr_left .selectarea .selectareali {
+        display: flex;
+        border-bottom: 1px dashed #ccc; }
+        .sr_contation .sr_left .selectarea .selectareali .selectareaLeft {
+          width: 66px;
+          height: 34px;
+          text-align: center;
+          line-height: 34px;
+          border-right: 1px solid #C7CACD; }
+        .sr_contation .sr_left .selectarea .selectareali .selectareaRight ul {
+          display: flex;
+          height: 34px;
+          line-height: 34px; }
+          .sr_contation .sr_left .selectarea .selectareali .selectareaRight ul li {
+            margin-left: 25px; }
+  .sr_contation .floatdiv {
+    width: 1200px;
+    margin: 0 auto; }
+    .sr_contation .floatdiv .filterTabBar {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 2px solid #b81c22; }
+      .sr_contation .floatdiv .filterTabBar .searchTabbar .hover {
+        width: 88px;
+        height: 30px;
+        background: #b81c22;
+        line-height: 30px;
+        text-align: center; }
+        .sr_contation .floatdiv .filterTabBar .searchTabbar .hover a {
+          color: #fff; }
+      .sr_contation .floatdiv .filterTabBar .pageBox .pagediv {
+        display: flex;
+        height: 30px;
+        line-height: 30px; }
+        .sr_contation .floatdiv .filterTabBar .pageBox .pagediv span {
+          margin-left: 12px;
           display: block; }
-      .shangzhuanglist ul li div:first-child {
-        margin-bottom: 10px; }
-      .shangzhuanglist ul li h3 {
-        height: 28px;
-        padding: 20px 12px;
-        line-height: 28px;
-        border: 1px solid #e8e7ec;
-        border-top: 0px;
-        font-size: 14px; }
-        .shangzhuanglist ul li h3 span {
-          float: right;
-          color: #a10000;
-          font-family: Arial;
-          line-height: 24px;
-          font-size: 14px; }
-
-.kuzhuanglist ul {
-  display: flex;
-  justify-content: space-between; }
-  .kuzhuanglist ul li h3 {
-    width: 259px;
-    height: 28px;
-    padding: 20px 12px;
-    border: 1px solid #e8e7ec;
-    border-top: 0;
-    line-height: 28px;
-    display: flex;
-    justify-content: space-between; }
-    .kuzhuanglist ul li h3 span {
-      font-size: 14px;
-      color: #a10000; }
-      .kuzhuanglist ul li h3 span em {
-        font-size: 16px;
-        padding-left: 5px; }
-
-.otherlist ul {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap; }
+          .sr_contation .floatdiv .filterTabBar .pageBox .pagediv span .jquery_pager_prevpage {
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -72px;
+            height: 17px;
+            width: 19px;
+            cursor: pointer;
+            display: block;
+            margin-top: 7px; }
+          .sr_contation .floatdiv .filterTabBar .pageBox .pagediv span .jquery_pager_nextpage {
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -89px;
+            cursor: pointer;
+            height: 17px;
+            width: 48px;
+            display: block;
+            margin-top: 7px; }
+    .sr_contation .floatdiv .filterForm {
+      width: 1200px;
+      margin: 0 auto;
+      display: flex; }
+      .sr_contation .floatdiv .filterForm .searchCol ul {
+        display: flex; }
+        .sr_contation .floatdiv .filterForm .searchCol ul li {
+          width: 74px;
+          height: 34px;
+          border-left: 1px solid #ddd;
+          border-right: 1px solid #ddd;
+          text-align: center;
+          line-height: 34px; }
+          .sr_contation .floatdiv .filterForm .searchCol ul li a span {
+            display: inline-block;
+            height: 11px;
+            width: 11px;
+            line-height: 11px;
+            margin-left: 0px;
+            text-indent: -9999px;
+            vertical-align: middle;
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat; }
+            .sr_contation .floatdiv .filterForm .searchCol ul li a span.upTrendBottom {
+              background-position: 0px -3090px; }
+            .sr_contation .floatdiv .filterForm .searchCol ul li a span.BottomTrendUpRed {
+              background-position: -21px -3112px; }
+          .sr_contation .floatdiv .filterForm .searchCol ul li .triggerMore {
+            display: inline-block;
+            text-indent: -9999px;
+            vertical-align: top;
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -3131px;
+            width: 11px;
+            height: 10px;
+            position: relative;
+            top: 13px;
+            z-index: 4; }
+      .sr_contation .floatdiv .filterForm .searchbarPrice {
+        width: 1200px;
+        height: 34px;
+        border-right: 1px solid #ddd;
+        width: 133px; }
+        .sr_contation .floatdiv .filterForm .searchbarPrice .searchbarText {
+          position: relative; }
+          .sr_contation .floatdiv .filterForm .searchbarPrice .searchbarText .searchbarInit {
+            display: flex;
+            position: absolute;
+            width: 107px;
+            height: 27px;
+            left: 20px;
+            top: 7px; }
+            .sr_contation .floatdiv .filterForm .searchbarPrice .searchbarText .searchbarInit input {
+              width: 35px;
+              height: 15px;
+              padding-left: 3px; }
+      .sr_contation .floatdiv .filterForm .hbDpBox {
+        flex: 1; }
+        .sr_contation .floatdiv .filterForm .hbDpBox ul {
+          display: flex;
+          justify-content: flex-end; }
+          .sr_contation .floatdiv .filterForm .hbDpBox ul li {
+            width: 89px;
+            height: 34px;
+            background: #eee;
+            border-left: 1px solid #ccc;
+            text-align: center;
+            line-height: 34px; }
 
 .vanclFoot {
   overflow: hidden;

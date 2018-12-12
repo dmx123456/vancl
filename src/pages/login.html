@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../dist/css/login.css">
+</head>
+
+<body>
+    <div>
+        <div id="Head">
+            <a class="logo" href="#"></a>
+            <p>
+                <a href="#" target="_blank">帮助</a>
+            </p>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="title">
+            <h3>凡客 Vancl 登录
+                <span>没有账户免费
+                    <a href="javascript:void(0);">注册</a>
+                </span>
+            </h3>
+        </div>
+        <div class="advert">
+            <img src="http://i1.vanclimg.com/cms/20160902/login120412_newlogo.jpg" />
+        </div>
+        <div class="login">
+            <div class="tag">
+                <ul id="tags">
+                    <li class="on">普通登录</li>
+                    <li>快速登录</li>
+                </ul>
+            </div>
+            <!--tag-->
+            <div id="shows">
+                <div class="user_infor">
+                    <div id="_uname" class="newtxt">
+                        <input id="vanclUserName" name="vanclUserName" type="text" value="" placeholder="请输入用户名"/>
+                    </div>
+                    <div id="vanclUserNameError" class="tips">
+                        用户名不能为空!
+                    </div>
+                    <div id="_upwd" class="newtxt">
+                        <input id="vanclPassword" name="vanclPassword" type="password" class="inputtextcolor" value="" placeholder="请输入密码"/>
+                    </div>
+                    <div id="vanclPasswordError" class="tips">
+                        密码不能为空!
+                    </div>
+                    <div id="vanclLoginError" class="tips">
+                            用户名或者密码错误!
+                        </div>
+                    <p id='pValidate' style="display:none" class="newtxt">
+                        <label style="color: #acacac">
+                            验证码</label><input maxlength="6" style="width: 155px; height: 48px; border: 0 none;
+                                        text-indent: 10px;"
+                            id="calculatevalidate" name="calcultatevalidate" type="text" class="inputtextcolor" value="" />
+                        <img id='img_validate' oldsrc='/Controls/CalculateValidateCode.ashx?key=Login' src="" style="/* vertical-align: middle; */width: 145px; height: 53px; cursor: pointer;
+                                    position: absolute; right: 0px; top: 0px; z-index: 11;" />
+                        <a style="cursor: pointer; float: right; line-height: 18px;" href="javascript:void(0)">
+                            看不清?换一张</a>
+                    </p>
+                    <div id="validateError" style="display: none" class="tips">
+                        验证码不能为空!
+                    </div>
+
+                    <div class="bt">
+
+                        <span id="userThaw" style="display:none;"><a class="forget" href="ThawUser.aspx">账户解冻</a></span>
+                        <a class="forget" href="https://login.vancl.com/login/GetPwdStep1.aspx">找回密码</a>
+                        <div class="clear">
+                        </div>
+                        <a id="vanclLogin" class="log" href="#">登 录</a>
+                    </div>
+                </div>
+                <!-- 
+                        ****************************************************
+                        快速登录区域----开始
+                        ****************************************************
+                         -->
+                <!-- <div class="user_infor" style="display: none">
+                    <div id="_quickmobile" class="newtxt" style="width: 250px; float: left;">
+                        <label>
+                            输入手机号
+                        </label>
+                        <input id="_quickmobilenumber" maxlength="11" name="vanclUserName" type="text" value="" />
+                    </div>
+                    <a href="javascript:void(0);" class="asPhoneregBtn" id="getSmsCode" style="display: block">
+                        获取短信验证码</a>
+                    <div class="asPhoneregBtn" style="display: none" id="sendedSmsCode">
+                        已发送
+                    </div>
+                    <div class="asPhoneregBtn" style="display: none" id="sendingSmsCode">
+                        正在发送验证码
+                    </div>
+                    <div id="err_phone" class="tips" style="width: 80%;">
+                    </div>
+                    <div id="_quickcode" class="newtxt" style="border: 0 none;">
+                        <label style="width: 142px; height: 43px; line-height: 43px; border: solid 1px #cbcbcb;">
+                            验证码
+                        </label>
+                        <input id="_quickpiccode" name="vanclUserName" type="text" value="" style="width: 142px;
+                                    border: solid 1px #cbcbcb; height: 43px; line-height: 43px;" />
+                        <img id='_quickpiccodeimg' oldsrc='/Controls/CalculateValidateCode.ashx?key=Login' src="" style="vertical-align: middle; width: 140px; height: 45px; position: absolute;
+                                    top: 0; left: 137px;" />
+                        <a style="cursor: pointer; float: right; line-height: 18px;" href="javascript:void(0)">
+                            看不清?换一张</a>
+                    </div>
+                    <div id="_quickpiccodevalidmsg" class="tips">
+                        验证码不能为空!
+                    </div>
+                    <div id="_quickmobilecode" class="newtxt">
+                        <label>
+                            请输入手机验证码
+                        </label>
+                        <input id="_quickmobilevalidcode" name="vanclUserName" type="text" value="" />
+                    </div>
+                    <div id="_quickmobilecodemsg" class="tips">
+                        请输入有效的手机号码!
+                    </div>
+                    <div class="bt">
+                        <a id="_btnquicklogin" class="log" href="javascript:void(0);">登 录</a>
+                    </div>
+                </div> -->
+                <!-- 横线 -->
+                <div class="lines">
+                </div>
+
+
+                <div class="glup">
+                    <span class="blank10"></span>
+                    <h2 class="hezuo">
+                        使用合作网站账号登录凡客</h2>
+                    <span class="blank10"></span>
+                    <p class="qkimg">
+                        <a href="/login/wxlogin.aspx?http%3A%2F%2Fshopping.vancl.com%2Fmycart" id="a_wxlogin" class="weixin">
+                        </a><a class="xiaomi" onclick="openUrl('xiaomi')" href="javascript:void(0)"></a>
+                        <a href="javascript:void(0)" onclick="openUrl('alipay')" class="zhifubao"></a><a class="qq"
+                            href="javascript:void(0)" onclick="openUrl('qq')"></a><a class="qihu360" href="javascript:void(0)"
+                            onclick="openUrl('qihoo360')"></a><a class="weibo" href="javascript:void(0)" onclick="openUrl('sinaweibo')"></a>
+
+                        <div class="clear">
+                        </div>
+                        <div class="blank10">
+                        </div>
+                    </p>
+                </div>
+                <!--tishi-->
+            </div>
+            <!--user_infor-->
+            <div class="user_infor" style="display: none">
+                <div id="vjiaLoginError" class="tips">
+                    用户名或者密码错误!
+                </div>
+                <p>
+                    <label>
+                        用户名：</label><input id="PartnerUserName" name="PartnerUserName" type="text" value="Email/手机号" />
+                </p>
+                <div id="vjiaUserNameError" class="tips">
+                    用户名不能为空!
+                </div>
+                <p>
+                    <label>
+                        密 码：</label><input id="PartnerPassword" name="PartnerPassword" type="password" class="inputtextcolor"
+                        value="" />
+                </p>
+                <div id="vjiaPasswordError" class="tips">
+                    密码不能为空!
+                </div>
+                <p id='pVjiaValidate' style="display:none">
+                    <label>
+                        验证码：</label><input maxlength="6" style="width: 65px;" id="vjiacalculatevalidate" name="vjiacalcultatevalidate"
+                        type="text" class="inputtextcolor" value="" />
+                    <img id='img_vjiaValidate' oldsrc='/Controls/CalculateValidateCode.ashx?key=VjiaLogin' src="" style="vertical-align: middle; width: 145px; height: 53px" /><a
+                        style="cursor: pointer;
+                                    float: right; line-height: 18px;"
+                        href="javascript:void(0)">看不清?换一张</a>
+                </p>
+                <div id="vjiaValidateError" style="display: none" class="tips">
+                    验证码不能为空!
+                </div>
+
+                <div class="bt">
+                    <a id="vjiaLogin" class="log" href="#">登 录</a> <a class="forget" href="http://www.vjia.com/Login/GetPwdStep1.aspx">
+                        忘记密码啦？</a>
+                </div>
+                <div class="tishi">
+                    <span>提示：</span>使用V+账户登录后系统会自动为您注册一个与V+帐户相关联的VANCL帐户。帐户关联后您可共享V+的会员积分和累积消费金额。
+                </div>
+            </div>
+        </div>
+
+        <!--shows-->
+        <div style="clear: both;">
+        </div>
+    </div>
+    <div>
+        <div id="bottom" align="div">
+            <div id="bottoms">
+                <p class="bZp3">Copyright 2007 - 2016 vancl.com All Rights Reserved 京ICP证100557号 京公网安备11010102000579号
+                    出版物经营许可证新出发京批字第直110138号</p>
+                <div id="footerArea">
+                    <div class="subFooter"><a rel="nofollow" href="https://search.szfw.org/cert/l/CX20111229001302001330"
+                            class="redLogo" target="_blank"></a><span class="costumeOrg"></span><a rel="nofollow" href="http://www.315online.com.cn/member/315090053.html"
+                            class="wsjyBzzx" target="_blank"></a><a rel="nofollow" href="http://www.hd315.gov.cn/beian/view.asp?bianhao=010202010081900017"
+                            class="vanclMsg" target="_blank"></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
