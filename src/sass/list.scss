@@ -63,7 +63,7 @@
 
     .floatdiv {
         width: 1200px;
-        margin: 0 auto;
+        margin: 0 auto 15px;
 
         .filterTabBar {
             display: flex;
@@ -117,6 +117,8 @@
             width: 1200px;
             margin: 0 auto;
             display: flex;
+            border-bottom: 1px solid #ccc;
+            ;
 
             .searchCol ul {
                 display: flex;
@@ -144,8 +146,8 @@
                                 background-position: 0px -3090px;
                             }
 
-                            &.BottomTrendUpRed {
-                                background-position: -21px -3112px;
+                            &.BottomTrendUp {
+                                background-position: 0px -3112px;
                             }
 
                         }
@@ -197,6 +199,7 @@
                 ul {
                     display: flex;
                     justify-content: flex-end;
+
                     li {
                         width: 89px;
                         height: 34px;
@@ -207,6 +210,194 @@
                     }
                 }
             }
+        }
+    }
+
+    .pruarea {
+        width: 1200px;
+        margin: 0 auto;
+
+        ul {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            li {
+                display: inline;
+                width: 231px;
+                margin-bottom: 20px;
+
+                p {
+                    text-align: center;
+                    width: 225px;
+                    hieght: 38px;
+                    padding: 0 3px 5px;
+                    margin-top: 10px;
+
+                    a {
+                        display: block;
+                        width: 220px;
+                        overflow: hidden;
+                        white-space: nowrap;
+                        text-overflow:ellipsis;
+                    }
+                }
+
+                &>div {
+                    display: inline-block;
+                    text-align: center;
+                    width: 100%;
+                }
+
+                .Mpricediv .Sprice {
+                    padding: 0px 3px 5px;
+                    line-height: 20px;
+                    text-align: center;
+                    font-size: 13px;
+                    color: #b81c22;
+                    font-weight: 800;
+
+                    strong {
+                        font-weight: 800;
+                    }
+                }
+
+                .pic {
+                    width: 230px;
+                   height: 344px;
+                    z-index: 0;
+                    position: relative;
+                    text-align: center;
+
+                    img {
+                        display: block;
+                        border: 1px solid #dbd7d6;
+                        width: 228px;
+                        height: 344px;
+                    }
+
+                    .teshui {
+                        background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -841px transparent;
+                        bottom: 0;
+                        color: #FFFFFF;
+                        font-family: "arial";
+                        font-size: 16px;
+                        height: 25px;
+                        padding: 18px 0 2px 6px;
+                        position: absolute;
+                        right: 0;
+                        text-align: center;
+                        width: 40px;
+                        text-indent: -5px;
+                        _background: none;
+                        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled='true', sizingMethod='scale', src="http://i.vanclimg.com/NewVancl/Productlist/icon/icon-off.png");
+                    }
+
+                    .vancllist_logo {
+                        background: url(http://i4.vanclimg.com/search/vlistlogob.png) no-repeat scroll 0 0 transparent;
+                        _background: none;
+                        _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://i4.vanclimg.com/search/vlistlogob.png", sizingMethod="crop");
+                        bottom: 4px;
+                        height: 24px;
+                        left: -6px;
+                        position: absolute;
+                        width: 111px;
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .searchPage {
+        display: inline;
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 15px;
+
+        span {
+            display: inline;
+        }
+
+        .jquery_pager_prevpage {
+            cursor: pointer;
+            display: block;
+            width: 43px;
+            height: 24px;
+            padding-left: 14px;
+            line-height: 24px;
+            text-align: left;
+            border: 1px solid #efefef;
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat scroll 3px -1996px;
+        }
+
+        ul {
+            display: inline;
+            display: flex;
+            margin-right: 7px;
+
+            li {
+                display: inline;
+                float: left;
+                margin-left: 5px;
+                text-align: center;
+                width: 26px;
+                line-height: 24px;
+                height: 24px;
+                border: 1px solid #ededed;
+                cursor: pointer;
+
+                &.currentpage {
+                    color: #FFFFFF;
+                    font-weight: bold;
+                    background: #b81c22;
+                    width: 26px;
+                    line-height: 24px;
+                    height: 24px;
+                    border: 1px solid #ededed;
+                }
+            }
+        }
+
+        .jquery_pager_nextpage {
+            cursor: pointer;
+            display: block;
+            width: 43px;
+            height: 24px;
+            padding-right: 14px;
+            line-height: 24px;
+            text-align: right;
+            border: 1px solid #efefef;
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat scroll 46px -1954px;
+        }
+
+        .allpagesNumber {
+            display: inline-block;
+            margin: 6px 10px 0px;
+        }
+
+        strong {
+            margin-top: 6px;
+        }
+
+        .pageGGshuru {
+            width: 26px;
+            height: 24px;
+            border: 1px solid #ededed;
+            line-height: 24px;
+            text-align: center;
+            margin: 0px 4px;
+        }
+
+        .pageGGsub {
+            float: right;
+            width: 49px;
+            height: 26px;
+            border: none;
+            border: 0;
+            margin-left: 10px;
+            background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat scroll 0px -2044px;
+            cursor: pointer;
         }
     }
 }

@@ -291,7 +291,7 @@
                 </ul>
                 <div class="pageBox">
                     <div class="pagediv">
-                        <span>1/18</span>
+                        <span class="pageTop">1/18</span>
                         <span>
                             <a class="jquery_pager_prevpage" href="javascript:void(0)"></a>
                         </span>
@@ -319,21 +319,21 @@
                         <li class="zuixin">
                             <a title="上架新品" href="javascript:void(0)">
                                 <em>最新</em>
-                                <span class="upTrendBottom">上架新品</span></a></li>
+                                <span class="BottomTrendUp">上架新品</span></a></li>
                         <li class="jiage jiageHover" id="sortTypeMore">
                             <a title="按价格从低到高" href="javascript:void(0)">
                                 <em>价格</em>
                                 <span class="upTrendBottom">按价格从低到高</span></a>
                             <span class="triggerMore">更多</span>
                             <div class="dropdownList" id="sortTypeList" style="display:none;">
-                                <p><a title="按价格从低到高"  href="javascript:void(0)">
+                                <p><a title="按价格从低到高" href="javascript:void(0)">
                                         <em>价格</em>
                                         <span class="BottomTrendUp" style="margin-left:0px;">按价格从低到高</span></a></p>
-                                <p><a title="按价格从高到低"  href="javascript:void(0)">
+                                <p><a title="按价格从高到低" href="javascript:void(0)">
                                         <em>价格</em><span class="upTrendBottom">按价格从高到低</span></a></p>
-                                <p><a title="按折扣从高到低"  href="javascript:void(0)">
+                                <p><a title="按折扣从高到低" href="javascript:void(0)">
                                         <em>折扣</em><span class="upTrendBottom">按折扣从高到低</span></a></p>
-                                <p><a title="按直降从高到低"  href="javascript:void(0)">
+                                <p><a title="按直降从高到低" href="javascript:void(0)">
                                         <em>直降</em><span class="upTrendBottom">默直降高到低</span></a></p>
                             </div>
                         </li>
@@ -349,8 +349,7 @@
                         <div class="searchbarFoused" style="display:none">
                             <p>
                                 <a href="javascript:void(0)" class="searchbarBtnCommon" id="clearPrice">清空</a>
-                                <a href="javascript:void(0)" class="searchbarBtnStrong"
-                                    id="selectPrice"></a>
+                                <a href="javascript:void(0)" class="searchbarBtnStrong" id="selectPrice"></a>
                             </p>
                         </div>
                     </div>
@@ -365,9 +364,36 @@
             </div>
         </div>
 
+        <div class="pruarea" id="vanclproducts">
+            <ul>
+                
+            </ul>
+        </div>
+        <div class="searchPage" id="pager">
+            <span class="jquery_pager_prevpage" onmouseover="$(this).css('background-position', '3px -2018px');"
+                onmouseout="$(this).css('background-position', '3px -1996px');">
+                <a href="javascript:void(0)">上一页</a>
+            </span>
+            <ul>
+
+            </ul>
+            <em class="allpagesNumber"></em>
+            <span class="jquery_pager_nextpage" onmouseover="$(this).css('background-position', '46px -1976px');"
+                onmouseout="$(this).css('background-position', '46px -1954px');">
+                <a href="javascript:void(0)">下一页</a>
+            </span>
+
+
+            <strong>到第</strong>
+            <input type="text" id="bottompageindex" class="pageGGshuru" value="1">
+            <strong>页</strong>
+            <input type="button" class="pageGGsub" value="" />
+
+        </div>
     </div>
 
 
+    </div>
 
     <div class="vanclFoot">
         <div class="vanclCustomer publicfooterclear">
@@ -416,6 +442,7 @@
     <script src="../js/jquery.js"></script>
     <script src="../js/jquery.nav.js"></script>
     <script src="../js/common.js"></script>
+    <script src="../js/list.js"></script>
     <script>
         $(" .navListUl").nav({
             parent: ".navListUl>li",
