@@ -1,0 +1,730 @@
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+input,
+textarea,
+p,
+th,
+td {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 12px;
+  font-family: "Microsoft Yahei";
+  color: #333; }
+
+a {
+  text-decoration: none;
+  color: #777; }
+
+li {
+  list-style: none; }
+
+a:hover {
+  color: red; }
+
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+input {
+  /* border: 0; */
+  outline: none; }
+
+body,
+html {
+  width: 100%;
+  height: 100%; }
+
+.slide-show {
+  z-index: 2; }
+
+.slide-willhide {
+  z-index: 1; }
+
+em, strong, th {
+  font-weight: normal;
+  font-style: normal; }
+
+.clear {
+  clear: both; }
+
+.head {
+  width: 100%; }
+  .head .headerTopArea {
+    width: 100%;
+    background: #f7f7f7;
+    border-bottom: 1px solid #ccc; }
+    .head .headerTopArea .headerTop {
+      width: 1200px;
+      height: 31px;
+      margin: 0 auto; }
+      .head .headerTopArea .headerTop .headerTopRight {
+        width: 135px;
+        height: 31px;
+        line-height: 31px;
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopRight .headerTopRightNotice {
+          width: 55px;
+          height: 31px;
+          float: left;
+          padding-left: 26px;
+          background: url(http://i4.vanclimg.com/cms/20160912/notice.png) no-repeat 0 5px; }
+        .head .headerTopArea .headerTop .headerTopRight .preferential {
+          width: 45px;
+          float: right; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixinbox {
+            float: left;
+            position: relative;
+            height: 31px;
+            width: 20px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixin,
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
+            height: 25px;
+            width: 20px;
+            display: inline-block;
+            cursor: pointer; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weixin {
+            background: url(http://i1.vanclimg.com/cms/20150605/w1.jpg) no-repeat 0 6px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .weibo {
+            background: url(http://i2.vanclimg.com/cms/20150605/w2.jpg) no-repeat 0 6px; }
+          .head .headerTopArea .headerTop .headerTopRight .preferential .scan {
+            position: absolute;
+            left: -65px;
+            top: 31px;
+            height: 175px;
+            width: 150px;
+            display: inline-block;
+            cursor: pointer;
+            background: url(http://i2.vanclimg.com/header/20130116/weixin.png) no-repeat 0 7px;
+            display: none;
+            z-index: 100; }
+      .head .headerTopArea .headerTop .headerTopLeft .orderArea {
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopLeft .orderArea .order {
+          display: inline-block;
+          width: 62px;
+          height: 31px;
+          line-height: 31px;
+          margin-left: 13px; }
+      .head .headerTopArea .headerTop .headerTopLeft .loginArea {
+        height: 31px;
+        line-height: 31px;
+        float: right; }
+        .head .headerTopArea .headerTop .headerTopLeft .loginArea .welcome {
+          width: 150px; }
+        .head .headerTopArea .headerTop .headerTopLeft .loginArea .login {
+          display: inline-block;
+          width: 24px;
+          height: 31px;
+          line-height: 31px;
+          margin-left: -3px; }
+  .head .vanclLogoSearch {
+    width: 1200px;
+    height: 62px;
+    margin: 20px auto 25px; }
+    .head .vanclLogoSearch .vanclSearch {
+      width: 438px;
+      padding-top: 8px; }
+      .head .vanclLogoSearch .vanclSearch .searchTab {
+        height: 29px; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .Enter {
+          width: 249px;
+          height: 27px;
+          padding: 0px 5px;
+          line-height: 27px;
+          border: 1px solid #c9caca; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .btn {
+          width: 49px;
+          height: 29px;
+          border: none;
+          cursor: pointer;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -100px 0px; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .active {
+          width: 105px;
+          height: 27px;
+          border: 1px solid #c1383e;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+          position: relative;
+          z-index: 10;
+          float: right; }
+          .head .vanclLogoSearch .vanclSearch .searchTab .active a.cartab {
+            display: block;
+            padding-left: 29px;
+            padding-top: 6px;
+            font-size: 12px;
+            color: #ffffff; }
+        .head .vanclLogoSearch .vanclSearch .searchTab .buycar {
+          width: 105px;
+          height: 27px;
+          border: 1px solid #c1383e;
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -154px 0px;
+          position: relative;
+          z-index: 10; }
+          .head .vanclLogoSearch .vanclSearch .searchTab .buycar .BuycarTab {
+            width: 315px;
+            height: auto;
+            padding: 5px;
+            border: 1px solid #b81c22;
+            position: absolute;
+            right: -1px;
+            top: 27px;
+            _right: -2px;
+            background: #ffffff;
+            display: none; }
+      .head .vanclLogoSearch .vanclSearch .hotWord {
+        width: 440px;
+        padding-top: 5px;
+        line-height: 18px;
+        color: #727171;
+        padding-left: 15px; }
+      .head .vanclLogoSearch .vanclSearch p a {
+        color: #727171;
+        margin: 0 5px 0 0; }
+  .head .navlist {
+    width: 1000px;
+    height: 22px;
+    margin: 30px auto;
+    padding-left: 200px;
+    position: relative;
+    z-index: 300; }
+    .head .navlist ul li {
+      float: left;
+      width: 99px;
+      line-height: 22px;
+      padding: 0px 0px 10px;
+      text-align: center;
+      font-size: 16px;
+      font-family: "Microsoft YaHei";
+      position: relative;
+      z-index: 220; }
+      .head .navlist ul li.vancllogo_Con {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        padding: 0px;
+        background: none; }
+        .head .navlist ul li.vancllogo_Con a {
+          display: block;
+          width: 185px;
+          height: 46px;
+          background: url(http://i4.vanclimg.com/cms/20160923/logo18546.png) no-repeat scroll; }
+      .head .navlist ul li .NavLine {
+        display: block;
+        height: 16px;
+        width: 1px;
+        border-right: solid 1px #888;
+        position: absolute;
+        right: 1px;
+        top: 5px;
+        overflow: hidden; }
+      .head .navlist ul li .subNav {
+        width: 99px;
+        background: #fff;
+        position: absolute;
+        left: -2px;
+        top: 30px;
+        display: none; }
+        .head .navlist ul li .subNav span {
+          display: block;
+          width: 100%;
+          height: 5px;
+          border-top: 5px solid #B81C22; }
+        .head .navlist ul li .subNav ul {
+          border: 1px solid #efefef;
+          border-top: 0px;
+          padding: 10px 0px; }
+          .head .navlist ul li .subNav ul li {
+            text-align: center;
+            width: 99px;
+            line-height: 35px;
+            background: none;
+            padding: 0px;
+            float: none;
+            font-size: 16px;
+            position: relative;
+            z-index: 220; }
+
+.danpinBox {
+  width: 1200px;
+  margin: 0 auto; }
+  .danpinBox .breadNav {
+    margin-top: 10px;
+    height: 22px; }
+    .danpinBox .breadNav span {
+      margin: 0 8px; }
+  .danpinBox .danpinArea #ProductTitleShow {
+    margin-bottom: 30px; }
+    .danpinBox .danpinArea #ProductTitleShow #productTitle {
+      display: flex; }
+      .danpinBox .danpinArea #ProductTitleShow #productTitle h2 {
+        margin: 0 10px;
+        line-height: 45px;
+        font-size: 18px;
+        font-weight: bold; }
+        .danpinBox .danpinArea #ProductTitleShow #productTitle h2 span {
+          margin-left: 10px;
+          font-size: 14px;
+          font-weight: bold;
+          color: #a10000; }
+      .danpinBox .danpinArea #ProductTitleShow #productTitle ul {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end; }
+        .danpinBox .danpinArea #ProductTitleShow #productTitle ul.ProductSubnav {
+          height: 45px; }
+          .danpinBox .danpinArea #ProductTitleShow #productTitle ul.ProductSubnav li {
+            margin-right: 10px;
+            height: 45px;
+            line-height: 45px;
+            text-align: center; }
+            .danpinBox .danpinArea #ProductTitleShow #productTitle ul.ProductSubnav li a {
+              display: inline-block;
+              padding-right: 15px;
+              height: 45px;
+              line-height: 45px; }
+  .danpinBox .danpinArea .danpin_colLef {
+    display: flex; }
+    .danpinBox .danpinArea .danpin_colLef .danpinLeft {
+      width: 70px;
+      position: relative;
+      display: inline; }
+      .danpinBox .danpinArea .danpin_colLef .danpinLeft .smallImg #imageMenu li {
+        margin-top: 11px;
+        border: 1px solid #B4B4B4;
+        width: 68px;
+        height: 68px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinLeft .smallImg #imageMenu li span img {
+          width: 100%;
+          height: 100%; }
+        .danpinBox .danpinArea .danpin_colLef .danpinLeft .smallImg #imageMenu li.onlickImg {
+          display: inline-block;
+          width: 68px;
+          height: 68px;
+          border: 1px solid #a10000; }
+    .danpinBox .danpinArea .danpin_colLef .danpinColCenter {
+      margin: 0 80px;
+      width: 402px;
+      display: inline; }
+      .danpinBox .danpinArea .danpin_colLef .danpinColCenter .bigImg {
+        width: 400px;
+        height: 400px;
+        margin-top: 7px;
+        overflow: hidden;
+        border: 1px solid #e5e6e6;
+        position: relative; }
+        .danpinBox .danpinArea .danpin_colLef .danpinColCenter .bigImg img {
+          width: 400px;
+          height: 400px;
+          position: absolute;
+          z-index: 1; }
+        .danpinBox .danpinArea .danpin_colLef .danpinColCenter .bigImg .bigImgBlock {
+          z-index: 10; }
+        .danpinBox .danpinArea .danpin_colLef .danpinColCenter .bigImg .winSelector {
+          width: 200px;
+          height: 200px;
+          position: absolute;
+          cursor: crosshair;
+          opacity: 0.6;
+          background-color: #e6eaf3;
+          border: 1px solid White;
+          z-index: 11;
+          display: none; }
+    .danpinBox .danpinArea .danpin_colLef .danpinRight {
+      margin-bottom: 15px;
+      position: relative; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .bigView {
+        position: absolute;
+        border: 1px solid black;
+        background-color: White;
+        z-index: 2;
+        width: 400px;
+        height: 400px;
+        overflow: hidden;
+        display: none; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .bigView img {
+          position: absolute;
+          width: 800px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .bigView .bigViewBlock {
+          z-index: 10; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .cuxiaoPrice {
+        margin-bottom: 20px;
+        display: flex;
+        height: 26px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .cuxiaoPrice .tehuiMoney span {
+          line-height: 26px;
+          height: 26px;
+          display: inline-block;
+          color: #A10000; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .cuxiaoPrice .tehuiMoney span span {
+            line-height: 26px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .cuxiaoPrice #czwenan {
+          height: 26px;
+          display: inline-block;
+          margin-left: 20px;
+          line-height: 26px;
+          margin-top: 7px;
+          color: #a10000; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .cuxiaoPrice strong {
+          font-family: Tahoma;
+          font-size: 24px; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .danpinColor_Select {
+        display: flex;
+        height: 50px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .danpinColor_Select .selColor ul {
+          display: flex; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .danpinColor_Select .selColor ul li {
+            margin-right: 8px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            border: 1px solid #B4B4B4;
+            width: 40px;
+            height: 40px;
+            position: relative; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .danpinColor_Select .selColor ul li img {
+              width: 40px;
+              height: 40px; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .danpinColor_Select .selColor ul li.onlickColor {
+              background: #a10000;
+              border: 1px solid #a10000; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .danpinColor_Select .selColor ul li .colorHoverok {
+              display: block;
+              width: 14px;
+              height: 13px;
+              background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll;
+              background-position: -1151px 0;
+              position: absolute;
+              right: 1px;
+              bottom: 1px; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea {
+        display: flex;
+        margin: 15px 0; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight {
+          display: flex;
+          flex-direction: column; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .selSize ul {
+            display: flex; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .selSize ul li {
+              background: #FFFFFF;
+              border: 1px solid #C8C8C8;
+              color: #333333;
+              cursor: pointer;
+              display: inline;
+              height: 24px;
+              line-height: 22px;
+              margin-right: 5px;
+              margin-bottom: 5px;
+              text-align: center;
+              position: relative; }
+              .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .selSize ul li.onlickSelSize {
+                background: #a10000;
+                border: 1px solid #a10000; }
+              .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .selSize ul li span.sizeHoverok {
+                width: 14px;
+                height: 13px;
+                background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll;
+                background-position: -1151px 0;
+                position: absolute;
+                bottom: 1px;
+                right: 1px;
+                _right: 2px; }
+              .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .selSize ul li p {
+                padding: 0 9px;
+                margin: 1px 0;
+                height: 22px;
+                width: auto;
+                background: #fff; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .danpin_xuanzeGMcm {
+            border: 1px solid #CC9998;
+            width: 170px;
+            height: 20px;
+            margin-top: 5px;
+            line-height: 19px;
+            text-align: center;
+            color: #999999;
+            margin-bottom: 5px;
+            display: flex; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .danpin_xuanzeGMcm span {
+              height: 16px;
+              width: 16px;
+              background-position: -1911px 0pt;
+              margin: 2px;
+              line-height: 19px;
+              text-align: center;
+              color: #999999; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .danpin_xuanzeGMcm .sprites {
+              background-image: url(//i1.vanclimg.com/item/sprite0725.png);
+              background-color: transparent;
+              background-repeat: no-repeat; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .selSizeArea .selSizeRight .danpin_xuanzeGMcm p {
+              color: #a10000; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .goodsNum {
+        overflow: hidden;
+        padding: 0px;
+        display: flex; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .goodsNum .danpinColorTitle {
+          color: #666666;
+          line-height: 22px;
+          padding-bottom: 10px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .goodsNum .danpinnumSelect {
+          overflow: hidden; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .goodsNum .danpinnumSelect input {
+            width: 35px;
+            padding-left: 10px;
+            height: 20px;
+            border: 0;
+            line-height: 20px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .goodsNum #comeon {
+          color: #a10000;
+          margin-left: 10px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .goodsNum .LastNum {
+          line-height: 20px; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal {
+        padding-bottom: 15px;
+        width: 400px;
+        line-height: 22px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal .SelectAreaItotal {
+          width: 285px;
+          line-height: 22px; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal .SelectAreaItotal .goodsAddArea {
+            position: relative;
+            width: 400px;
+            z-index: 0;
+            background: none repeat scroll 0 0 transparent;
+            border: 0px;
+            padding: 0px;
+            display: flex; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal .SelectAreaItotal .goodsAddArea .danpinColorTitle {
+              color: #666666;
+              line-height: 22px;
+              padding-bottom: 10px; }
+            .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal .SelectAreaItotal .goodsAddArea .goodsAdd {
+              display: flex; }
+              .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal .SelectAreaItotal .goodsAddArea .goodsAdd .SelectSize {
+                width: auto;
+                max-width: 135px;
+                overflow: hidden;
+                height: 22px;
+                line-height: 22px;
+                color: #666666;
+                font-weight: bold; }
+              .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .AreaItotal .SelectAreaItotal .goodsAddArea .goodsAdd .NowHasGoods {
+                height: 22px;
+                line-height: 22px;
+                color: #666666;
+                font-weight: bold;
+                color: #a10000;
+                margin-left: 15px; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .shoppingNews {
+        display: flex;
+        margin-bottom: 20px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .shoppingNews .btnnowbuy {
+          background: #F7ABAF;
+          width: 166px;
+          height: 31px;
+          display: block;
+          float: left;
+          margin-right: 13px;
+          border: solid 1px #b71b21; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .shoppingNews .btnnowbuy span {
+            margin-left: 55px;
+            margin-top: 5px;
+            display: block;
+            font-size: 14px;
+            color: #A50309; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight .danpinFixedRightContent .selectArea .selColorArea .shoppingNews .btnaddtocart {
+          background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -147px -285px;
+          width: 168px;
+          height: 33px;
+          display: block; }
+      .danpinBox .danpinArea .danpin_colLef .danpinRight #promotion .danpin_YhTsBox {
+        width: 400px;
+        height: auto;
+        margin-bottom: 15px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #A20000; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight #promotion .danpin_YhTsBox h4 {
+          height: 4px;
+          line-height: 14px;
+          margin-bottom: 6px;
+          position: relative;
+          width: 400px;
+          color: #a20000;
+          font-weight: bold;
+          border-bottom: 1px solid #a20000; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight #promotion .danpin_YhTsBox h4 span {
+            display: inline-block;
+            height: 14px;
+            line-height: 14px;
+            text-align: center;
+            background: #ffffff;
+            position: absolute;
+            left: 167px;
+            top: -4px;
+            padding: 0 8px; }
+        .danpinBox .danpinArea .danpin_colLef .danpinRight #promotion .danpin_YhTsBox ul li {
+          line-height: 24px;
+          color: #666666; }
+          .danpinBox .danpinArea .danpin_colLef .danpinRight #promotion .danpin_YhTsBox ul li span {
+            display: block;
+            float: left;
+            width: auto;
+            height: 16px;
+            background: #b81c22;
+            margin: 4px 5px 0 0;
+            color: #fff;
+            line-height: 16px;
+            text-align: center;
+            padding: 0 5px; }
+
+.vanclFoot {
+  overflow: hidden;
+  width: 1118px;
+  height: 282px;
+  margin: 32px auto 25px;
+  padding: 0px 40px 0px;
+  border: 1px solid #e0e0e1; }
+  .vanclFoot .vanclCustomer {
+    margin: 33px 0px 23px;
+    overflow: hidden; }
+    .vanclFoot .vanclCustomer ul li {
+      float: left;
+      width: 370px;
+      height: 138px;
+      border-right: 1px solid #e0e0e1;
+      margin-right: 0px; }
+      .vanclFoot .vanclCustomer ul li p {
+        text-align: center;
+        font-size: 14px;
+        color: #727171;
+        line-height: 26px; }
+        .vanclFoot .vanclCustomer ul li p img {
+          display: block;
+          margin: 20px auto; }
+      .vanclFoot .vanclCustomer ul li:first-child p {
+        text-align: center;
+        font-size: 14px;
+        color: #727171;
+        line-height: 26px; }
+      .vanclFoot .vanclCustomer ul li:last-child.twocode {
+        border-right: none; }
+        .vanclFoot .vanclCustomer ul li:last-child.twocode p img {
+          margin-bottom: 10px; }
+      .vanclFoot .vanclCustomer ul li a:link, .vanclFoot .vanclCustomer ul li a:visited {
+        color: #333;
+        text-decoration: none; }
+        .vanclFoot .vanclCustomer ul li a:link .onlineTime, .vanclFoot .vanclCustomer ul li a:visited .onlineTime {
+          margin: 0px auto;
+          width: 156px;
+          height: 32px;
+          text-align: center;
+          line-height: 32px;
+          font-size: 14px;
+          background: #b81c22;
+          color: #ffffff; }
+        .vanclFoot .vanclCustomer ul li a:link .onlineCustomer, .vanclFoot .vanclCustomer ul li a:visited .onlineCustomer {
+          margin: 15px auto 30px; }
+  .vanclFoot .publicfooterclear {
+    zoom: 1; }
+  .vanclFoot .vanclOthers {
+    height: 26px;
+    padding: 17px 0px 14px;
+    background: #f8f8f8;
+    width: 100%;
+    margin: 0; }
+    .vanclFoot .vanclOthers ul li {
+      padding: 0px 65px;
+      line-height: 26px;
+      border-right: 1px solid #dadadb;
+      width: auto;
+      text-align: center;
+      margin-right: 0px;
+      float: left; }
+    .vanclFoot .vanclOthers ul li:last-child {
+      border-right: none; }
+
+.footerArea .footBottom {
+  width: 100%;
+  height: auto;
+  margin: 0px auto;
+  border-top: 1px solid #3e3a39; }
+  .footerArea .footBottom .footBottomTab {
+    width: 1200px;
+    height: auto;
+    margin: 10px auto; }
+    .footerArea .footBottom .footBottomTab p {
+      text-align: center;
+      line-height: 25px;
+      color: #3e3a39; }
+
+.footerArea .subFooter {
+  width: 980px;
+  margin: 0px auto 25px;
+  text-align: center; }
+  .footerArea .subFooter .redLogo {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -581px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 113px; }
+  .footerArea .subFooter .costumeOrg {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -629px transparent;
+    display: inline-block;
+    height: 45px;
+    width: 156px; }
+  .footerArea .subFooter .wsjyBzzx {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll 0 -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 96px; }
+  .footerArea .subFooter .vanclMsg {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -97px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 101px; }
+  .footerArea .subFooter .vanclqingNian {
+    background: url(http://i.vanclimg.com/cms/20140116/spritesbgtop.png) no-repeat scroll -202px -675px transparent;
+    display: inline-block;
+    height: 42px;
+    width: 42px; }
+  .footerArea .subFooter a, .footerArea .subFooter span {
+    margin: 0 10px; }
+
+.BayWindow {
+  width: 73px;
+  height: 205px;
+  border: 1px solid #b81b22;
+  border-bottom: none;
+  margin-bottom: 30px; }
+  .BayWindow ul li {
+    width: 73px;
+    border-bottom: 1px solid #b81b22; }
+    .BayWindow ul li a {
+      display: block;
+      width: 73px; }
+    .BayWindow ul li:first-child.downApp a {
+      height: 76px;
+      background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -1px; }
+    .BayWindow ul li:nth-child(2).online a {
+      height: 71px;
+      background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -78px; }
+    .BayWindow ul li:last-child.BlackTop a {
+      height: 55px;
+      background: url(http://i2.vanclimg.com/cms/20160802/baywindow.png) no-repeat -1px -149px; }

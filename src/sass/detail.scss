@@ -1,0 +1,487 @@
+@import "./header.scss";
+
+.danpinBox {
+    width: 1200px;
+    margin: 0 auto;
+
+    .breadNav {
+        margin-top: 10px;
+        height: 22px;
+
+        span {
+            margin: 0 8px;
+        }
+    }
+
+    .danpinArea {
+        #ProductTitleShow {
+            margin-bottom: 30px;
+
+            #productTitle {
+                display: flex;
+
+                h2 {
+                    margin: 0 10px;
+                    line-height: 45px;
+                    font-size: 18px;
+                    font-weight: bold;
+
+                    span {
+                        margin-left: 10px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        color: #a10000;
+                    }
+                }
+
+                ul {
+                    flex: 1;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+
+                    &.ProductSubnav {
+                        height: 45px;
+
+                        li {
+                            margin-right: 10px;
+                            height: 45px;
+                            line-height: 45px;
+                            text-align: center;
+
+                            a {
+                                display: inline-block;
+                                padding-right: 15px;
+                                height: 45px;
+                                line-height: 45px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .danpin_colLef {
+            display: flex;
+
+            .danpinLeft {
+                width: 70px;
+                position: relative;
+                display: inline;
+
+                .smallImg {
+                    #imageMenu {
+                        li {
+                            margin-top: 11px;
+                            border: 1px solid #B4B4B4;
+                            width: 68px;
+                            height: 68px;
+
+                            span img {
+                                width: 100%;
+                                height: 100%;
+                            }
+
+                            &.onlickImg {
+                                display: inline-block;
+                                width: 68px;
+                                height: 68px;
+                                border: 1px solid #a10000;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .danpinColCenter {
+                margin: 0 80px;
+                width: 402px;
+                display: inline;
+
+                .bigImg {
+                    width: 400px;
+                    height: 400px;
+                    margin-top: 7px;
+                    overflow: hidden;
+                    border: 1px solid #e5e6e6;
+                    position: relative;
+
+                    img {
+                        width: 400px;
+                        height: 400px;
+                        position: absolute;
+                        z-index: 1;
+                    }
+
+                    .bigImgBlock {
+                        z-index: 10;
+                    }
+
+                    .winSelector {
+                        width: 200px;
+                        height: 200px;
+                        position: absolute;
+                        cursor: crosshair;
+                        opacity: 0.6;
+                        background-color: #e6eaf3;
+                        border: 1px solid White;
+                        z-index: 11;
+                        display: none;
+                    }
+                }
+
+            }
+
+            .danpinRight {
+                margin-bottom: 15px;
+                position: relative;
+
+                .bigView {
+                    position: absolute;
+                    border: 1px solid black;
+                    background-color: White;
+                    z-index: 2;
+                    width: 400px; 
+                    height: 400px;
+                    overflow: hidden;
+                    display: none;
+                    img {
+                        position: absolute;
+                        width: 800px;
+                    }
+                    .bigViewBlock{
+                        z-index: 10;
+                    }
+                }
+
+                .danpinFixedRightContent {
+                    .cuxiaoPrice {
+                        margin-bottom: 20px;
+                        display: flex;
+                        height: 26px;
+
+                        .tehuiMoney span {
+                            line-height: 26px;
+                            height: 26px;
+                            display: inline-block;
+                            color: #A10000;
+
+                            span {
+                                line-height: 26px;
+                            }
+                        }
+
+                        #czwenan {
+                            height: 26px;
+                            display: inline-block;
+                            margin-left: 20px;
+                            line-height: 26px;
+                            margin-top: 7px;
+                            color: #a10000;
+                        }
+
+                        strong {
+                            font-family: Tahoma;
+                            font-size: 24px;
+                        }
+                    }
+
+                    .selectArea {
+                        .selColorArea {
+                            .danpinColor_Select {
+                                display: flex;
+                                height: 50px;
+
+                                .selColor ul {
+                                    display: flex;
+
+                                    li {
+                                        margin-right: 8px;
+                                        margin-bottom: 8px;
+                                        cursor: pointer;
+                                        border: 1px solid #B4B4B4;
+                                        width:40px;
+                                        height: 40px;
+                                        position: relative;
+                                        
+                                        img {
+                                            width: 40px;
+                                            height: 40px;
+                                        }
+
+                                        &.onlickColor {
+                                            background: #a10000;
+                                            border: 1px solid #a10000;
+                                        }
+
+                                        .colorHoverok {
+                                            display: block;
+                                            width: 14px;
+                                            height: 13px;
+                                            background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll;
+                                            background-position: -1151px 0;
+                                            position: absolute;
+                                            right: 1px;
+                                            bottom: 1px;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .selSizeArea {
+                                display: flex;
+                                margin: 15px 0;
+
+                                .selSizeRight {
+                                    display: flex;
+                                    flex-direction: column;
+
+                                    .selSize ul {
+                                        display: flex;
+
+                                        li {
+                                            background: #FFFFFF;
+                                            border: 1px solid #C8C8C8;
+                                            color: #333333;
+                                            cursor: pointer;
+                                            display: inline;
+                                            height: 24px;
+                                            line-height: 22px;
+                                            margin-right: 5px;
+                                            margin-bottom: 5px;
+                                            text-align: center;
+                                            position: relative;
+
+                                            &.onlickSelSize {
+                                                background: #a10000;
+                                                border: 1px solid #a10000;
+                                            }
+
+                                            span.sizeHoverok{
+                                                width: 14px;
+                                                height: 13px;
+                                                background: url(//i1.vanclimg.com/item/sprite0725.png) no-repeat scroll;
+                                                background-position: -1151px 0;
+                                                position: absolute;
+                                                bottom: 1px;
+                                                right: 1px;
+                                                _right: 2px;
+                                            }
+
+                                            p {
+                                                padding: 0 9px;
+                                                margin: 1px 0;
+                                                height: 22px;
+                                                width: auto;
+                                                background: #fff;
+                                            }
+                                        }
+                                    }
+
+                                    .danpin_xuanzeGMcm {
+                                        border: 1px solid #CC9998;
+                                        width: 170px;
+                                        height: 20px;
+                                        margin-top: 5px;
+                                        line-height: 19px;
+                                        text-align: center;
+                                        color: #999999;
+                                        margin-bottom: 5px;
+                                        display: flex;
+
+                                        span {
+                                            height: 16px;
+                                            width: 16px;
+                                            background-position: -1911px 0pt;
+                                            margin: 2px;
+                                            line-height: 19px;
+                                            text-align: center;
+                                            color: #999999;
+                                        }
+
+                                        .sprites {
+                                            background-image: url(//i1.vanclimg.com/item/sprite0725.png);
+                                            background-color: transparent;
+                                            background-repeat: no-repeat;
+                                        }
+
+                                        p {
+                                            color: #a10000;
+                                        }
+                                    }
+                                }
+                            }
+
+                            .goodsNum {
+                                overflow: hidden;
+                                padding: 0px;
+                                display: flex;
+
+                                .danpinColorTitle {
+                                    color: #666666;
+                                    line-height: 22px;
+                                    padding-bottom: 10px;
+                                }
+
+                                .danpinnumSelect {
+                                    overflow: hidden;
+                                    input{
+                                        width: 35px;
+                                        padding-left:10px;
+                                        height: 20px;
+                                        border: 0;
+                                        line-height: 20px;
+                                    }
+                                }
+
+                                #comeon {
+                                    color: #a10000;
+                                    margin-left: 10px;
+                                    // display: none;
+                                }
+
+                                .LastNum {
+                                    line-height: 20px;
+                                }
+                            }
+
+                            .AreaItotal {
+                                padding-bottom: 15px;
+                                width: 400px;
+                                line-height: 22px;
+
+                                .SelectAreaItotal {
+                                    width: 285px;
+                                    line-height: 22px;
+
+                                    .goodsAddArea {
+                                        position: relative;
+                                        width: 400px;
+                                        z-index: 0;
+                                        background: none repeat scroll 0 0 transparent;
+                                        border: 0px;
+                                        padding: 0px;
+                                        display: flex;
+
+                                        .danpinColorTitle {
+                                            color: #666666;
+                                            line-height: 22px;
+                                            padding-bottom: 10px;
+                                        }
+
+                                        .goodsAdd {
+                                            display: flex;
+
+                                            .SelectSize {
+                                                width: auto;
+                                                max-width: 135px;
+                                                overflow: hidden;
+                                                height: 22px;
+                                                line-height: 22px;
+                                                color: #666666;
+                                                font-weight: bold;
+                                            }
+
+                                            .NowHasGoods {
+                                                height: 22px;
+                                                line-height: 22px;
+                                                color: #666666;
+                                                font-weight: bold;
+                                                color: #a10000;
+                                                margin-left: 15px;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .shoppingNews {
+                                display: flex;
+                                margin-bottom: 20px;
+
+                                .btnnowbuy {
+                                    background: #F7ABAF;
+                                    width: 166px;
+                                    height: 31px;
+                                    display: block;
+                                    float: left;
+                                    margin-right: 13px;
+                                    border: solid 1px rgb(183, 27, 33);
+
+                                    span {
+                                        margin-left: 55px;
+                                        margin-top: 5px;
+                                        display: block;
+                                        font-size: 14px;
+                                        color: #A50309;
+                                    }
+                                }
+
+                                .btnaddtocart {
+                                    background: url(http://i2.vanclimg.com/cms/20150228/vanclsprite.png) no-repeat scroll -147px -285px;
+                                    width: 168px;
+                                    height: 33px;
+                                    display: block;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                #promotion {
+                    .danpin_YhTsBox {
+                        width: 400px;
+                        height: auto;
+                        margin-bottom: 15px;
+                        padding-bottom: 10px;
+                        border-bottom: 1px solid #A20000;
+
+                        h4 {
+                            height: 4px;
+                            line-height: 14px;
+                            margin-bottom: 6px;
+                            position: relative;
+                            width: 400px;
+                            color: #a20000;
+                            font-weight: bold;
+                            border-bottom: 1px solid #a20000;
+
+                            span {
+                                display: inline-block;
+                                height: 14px;
+                                line-height: 14px;
+                                text-align: center;
+                                background: #ffffff;
+                                position: absolute;
+                                left: 167px;
+                                top: -4px;
+                                padding: 0 8px;
+                            }
+                        }
+
+                        ul li {
+                            line-height: 24px;
+                            color: #666666;
+
+                            span {
+                                display: block;
+                                float: left;
+                                width: auto;
+                                height: 16px;
+                                background: #b81c22;
+                                margin: 4px 5px 0 0;
+                                color: #fff;
+                                line-height: 16px;
+                                text-align: center;
+                                padding: 0 5px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@import "./footer.scss";

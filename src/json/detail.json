@@ -1,0 +1,721 @@
+[{
+        "id": 1,
+        "title": "N3B大衣棉服 厚棉 C9 男款",
+        "img": [
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-1j201710121408227822.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-5201710121435076858.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-6201710121435076858.jpg"
+        ],
+        "price": "￥498",
+        "original": "¥218",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/77822", "军绿色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/87822", "迷彩", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/67197", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 2,
+        "title": "凡客羽绒服 加厚鹅绒 棒球服",
+        "img": [
+            "http://p2.vanclimg.com/product/6/3/7/6378501/big/6378501-1j201801031254368841.jpg",
+            "http://p2.vanclimg.com/product/6/3/7/6378501/big/6378501-2201711031613492136.jpg",
+            "http://p2.vanclimg.com/product/6/3/7/6378501/big/6378501-5201710251042209013.jpg"
+        ],
+        "price": "￥998",
+        "original": "¥318",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637849/97279", "藏蓝色/米白色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637850/08841", "酒红色/米白色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637850/18841", "黑色/藏蓝色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 3,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":4,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 5,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 6,
+        "title": "N3B大衣棉服 厚棉 C9 男款",
+        "img": [
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-1j201710121408227822.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-5201710121435076858.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-6201710121435076858.jpg"
+        ],
+        "price": "￥498",
+        "original": "¥218",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/77822", "军绿色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/87822", "迷彩", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/67197", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":7,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 8,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 9,
+        "title": "N3B大衣棉服 厚棉 C9 男款",
+        "img": [
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-1j201710121408227822.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-5201710121435076858.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-6201710121435076858.jpg"
+        ],
+        "price": "￥498",
+        "original": "¥218",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/77822", "军绿色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/87822", "迷彩", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/67197", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":10,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":11,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 12,
+        "title": "N3B大衣棉服 厚棉 C9 男款",
+        "img": [
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-1j201710121408227822.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-5201710121435076858.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-6201710121435076858.jpg"
+        ],
+        "price": "￥498",
+        "original": "¥218",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/77822", "军绿色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/87822", "迷彩", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/67197", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":13,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 14,
+        "title": "N3B大衣棉服 厚棉 C9 男款",
+        "img": [
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-1j201710121408227822.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-5201710121435076858.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-6201710121435076858.jpg"
+        ],
+        "price": "￥498",
+        "original": "¥218",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/77822", "军绿色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/87822", "迷彩", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/67197", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":15,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":16,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id": 17,
+        "title": "N3B大衣棉服 厚棉 C9 男款",
+        "img": [
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-1j201710121408227822.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-5201710121435076858.jpg",
+            "http://p5.vanclimg.com/product/6/3/7/6377997/big/6377997-6201710121435076858.jpg"
+        ],
+        "price": "￥498",
+        "original": "¥218",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/77822", "军绿色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/87822", "迷彩", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/67197", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    },
+    {
+        "id":18,
+        "title": "B10飞行夹克 拆卸毛领 厚棉 C9",
+        "img": [
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-1j201710121408227197.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-5201710121415025402.jpg",
+            "http://p1.vanclimg.com/product/6/3/7/6378000/big/6378000-6201710121415025402.jpg"
+        ],
+        "price": "￥398",
+        "original": "¥198",
+        "type": [
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637799/97822", "黑色", {
+                "size": [
+                    ["S", 12],
+                    ["M", 55],
+                    ["L", 23],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/07197", "军绿色", {
+                "size": [
+                    ["S", 14],
+                    ["M", 55],
+                    ["L", 44],
+                    ["XL", 66],
+                    ["XXL", 12]
+                ]
+            }],
+            ["http://i.vanclimg.com/joinimages.ashx?d=/36/product/&href=6/3/7/637800/17822", "迷彩色 ", {
+                "size": [
+                    ["S", 75],
+                    ["M", 55],
+                    ["L", 45],
+                    ["XL", 96],
+                    ["XXL", 12]
+                ]
+            }]
+        ]
+    }
+]

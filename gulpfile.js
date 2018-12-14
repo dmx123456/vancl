@@ -17,7 +17,10 @@ gulp.task("js", () => {
     return gulp.src(["./src/js/*.js"])
         .pipe(gulp.dest("./dist/js"));
 })
-
+gulp.task("json", () => {
+    return gulp.src(["./src/json/*.json"])
+        .pipe(gulp.dest("./dist/json"));
+})
 gulp.task("sass", () => {
     return gulp.src("./src/sass/*.scss")
         .pipe(sass().on("error", sass.logError))
@@ -27,7 +30,8 @@ gulp.task("sass", () => {
 gulp.task("watch", () => {
     gulp.watch("./src/pages/*.html", ["html"]);
     gulp.watch("./src/sass/*.scss", ["sass"]);
-    gulp.watch("./src/js/*.scss", ["js"]);
+    gulp.watch("./src/js/*.js", ["js"]);
+    gulp.watch("./src/json/*.json", ["json"]);
 })
 
 gulp.task("connect", () => {

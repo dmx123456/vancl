@@ -439,7 +439,7 @@ em, strong, th {
             font-weight: 800; }
         .sr_contation .pruarea ul li .pic {
           width: 230px;
-          height: 344px;
+          height: 230px;
           z-index: 0;
           position: relative;
           text-align: center; }
@@ -447,7 +447,7 @@ em, strong, th {
             display: block;
             border: 1px solid #dbd7d6;
             width: 228px;
-            height: 344px; }
+            height: 230px; }
           .sr_contation .pruarea ul li .pic .teshui {
             background: url(http://i.vanclimg.com/search/sprites_20130606.png) no-repeat 0px -841px transparent;
             bottom: 0;
